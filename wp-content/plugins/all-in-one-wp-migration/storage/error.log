@@ -1,0 +1,783 @@
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/0d\/a35315611c5d920cdbc74697abbbcd26a826d1): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/0d\/af53529dbbabe66e8d183fa89862f4297cc3e6): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/95\/c8331055d236ceb0bc695c4888940269da016c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/0c\/29bef4c120249ebc6d31f3fb7e1070ffc9add1): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/66\/f233a63c988deb5a59dde3bba962082fbdfd57): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/66\/a4efe1d47524a85c1cfbf139f683f72859c8b0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3e\/0cceafef73f63da68b14be2cd777f4f062e980): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3e\/74cd232e3ee83bc4a4f3fb61bc2fbe4dd3984a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3e\/5a281cf464e065974a724710a6186a0e9bfe0a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/50\/08ddfcf53c02e82d7eee2e57c38e5672ef89f6): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/50\/849423b91a67fb9a4d9400c0966aec69ea5a67): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/57\/a0231f654090838f9a9689e5bf7983348a457a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/6f\/bbf5ce565e7d79ed92934625b93a8c12e50165): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/6f\/c8e856122c4f523a85c2cb55352a1a79dbedb8): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/9e\/939975fa9f08927bb1a796b0e7f5bc9ac80597): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/04\/e88da310d4c9146856d72427e998dcb2d476ae): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/6a\/1e6c7943c46783493a0ab3e1e413c7dc41b639): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/35\/04bb1aa5d7aa2c3d75aedd4a03916afaa7e4d9): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/35\/1136790a48a33a2622627e4267425a2ec90b61): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/35\/b9aed22793a8ff68b86600796c6d9ed9d99f9d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/69\/e056d2c1ef94f63abe42f9fba78fbcd85feae0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3c\/3629e647f5ddf82548912e337bea9826b434af): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3c\/67e92febcb09aeb66393949b517b7f12f907f7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/56\/9af1e1f5964c08b99e3273a32df72ace776b25): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3d\/4266e0d087794f655ecceb7a367859a1ac513a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/67\/d1d80267cc02d3958c15b38b3a4583cbee2a58): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/67\/c764b4838e170a88006e2f62e4c2602576c39a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/0b\/d043aabd1f11003dde89ad8f19adc089f10422): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/0b\/fe5303b9f5bed8e538929f3f6c766f77ce4c9e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/93\/24d4e8977eba4acfc1ca2b1659d2975899a14e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/94\/1cd3a6ca14e178265dc577b54da9f73e9cec8b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5f\/9f129e473dcfc1041679af6f15ee67a928c393): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5f\/10a62f14491976eba190d266dcaff76e071874): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5f\/d77a4eb0d692a657e5a0ef8040fc7e65a9e70e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/33\/e454a614760c5725783a6cef0c165e94a9ea01): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/33\/f06f028a10f62494fded69094ef9d4fcbec76f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/05\/c1ab64d2d668c23a4daad3537cd189852e842f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/9d\/306321913bc3bbf389792ece9116ee2e5ad447): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/9c\/f766f4f3c3741fd5a8731960b543facab7fe38): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/02\/2d0787c0f040c7f7b065c2eb33d618d6f1dce9): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/a4\/fedb424f4a595213d6094a2819dcefc1fa056f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b5\/73052c14affa5bdca02ac9e3e7a4168768925b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d9\/22d75fb46243aad64a19f2fb7962eaca0a2981): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ac\/8f0d2d2117b661b5cea0560cbda3e04be0b449): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ac\/6c32c23674cde063c1d188cc6c114574ca2c9e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ad\/a62f5cc77e45ea8ef7fcbecc144126a99291d8): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d7\/d553ccad3a77cead81ff1a622ae16304607426): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d0\/4a788e39abb2f907d6d74406a300b495251fcc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d0\/cc1a458f8bd3f64b2891f011d6a82c780ccd2d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/be\/a4bc7624b6436335735ca6512ab410a69fcc30): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b3\/0e72473fd2d4743d03cacc4376f25ebc8ad461): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/df\/070bc59634213b5f9d49b4d6169d61dd6ac40d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/df\/5c2e99881d40fb84ff3cd1ac969699d7fcade2): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/da\/02d7931b6d7aba1c3bf3f0fa019afefca0f954): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/da\/2a98af94e82f0a26b2a1f26e7b05afe07d3608): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d6\/235aa27ca6ff6dd5991328ca4c6b8ec791faeb): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/bc\/d7dcad996db4ed4a1c8451f04f623a01cc069b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ae\/81d90b3d4a69d6d9500302192f2481923767fc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ae\/e9bf3d3e1adf4ad0516db9229746938af6b373): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ae\/3e17b50a3fa12ef6b03cc8d074d349a555aba3): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ae\/fa39c2ab0fa5d78e1a590b31a86d980b239c4b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d8\/66c9841344320e95d94bce41936186407c7e2d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/f3\/764880228bff11cab2ec034ef5a3848c441e5e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/eb\/2471d75368850f773509e081807782c7c93cd5): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/eb\/91ff413c0af49c14a23dbbc96c305a165372c1): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c7\/cde6413431ad812efcafd6d257c9870e047095): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c7\/9eaa2044b97715e8bb1d67ae1d15a865dd8005): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ee\/8841bfd539757a5a7a611366dc86fc2e7469d6): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c9\/bc90bfd953cd97640522fe2f9b4058c72f51e0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c9\/71e038be4e0e4e2565142e2dcc2f4838de99fb): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/f5\/d03fcd59c1fc62db7549347003ae43ff6ec709): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e3\/6b22b1cd03a6f92718a23a96769484e4511761): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e3\/d2102d3bb6d3d870afd6ed2632b921b460fd98): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cf\/223f3c3e3e5d17b330f14f0262a18c2e5c1df6): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ca\/d8ea367a82059be08cbf0b8378d2c82cc9c7f6): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ca\/79aaac3cf57384742448a29c55883b1b3ad2da): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e4\/3c70fbb4bb4046805b3a4147b96546041e2ec3): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fe\/71a8ef4a1b8cd37d81ce050cf23701c751f701): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fe\/9f73dc8ac935fc98fb1a14b4e02970e7b9732a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c8\/f01a5feba0a3d7881411163de8009499f58c7d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fb\/5066bf55dd2d56afad94f322968414775d1638): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fb\/5e9f856aee184b359a26c031a1036beb3e8c63): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fb\/a1a61bd174910cec714baefcaddbaf0eab9c3e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fb\/0ea33f57c350320d4af48ee38b48c823448301): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/fb\/7f4a209c5f72f46f73b7d8a55cc9b4b155d688): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c6\/f2cef3c33de20bd68eacefdfba2f97c6a11099): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/4e\/b6c723df4da92db16de41d840b5a480c1a1ffb): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/4e\/6496d37138e3ee321c8492f46b48f63a912340): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/18\/c2eb6e726a73b0ca3ec2e1865644de9558e174): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/18\/9952fb6b5c86aa3a9112338545ac26d952d02c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/18\/c2b751d87284816c3a408eb684fead14fdb58e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/18\/9b8426641563f02062e2baecef2be5134d529c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/27\/466495b28aa9630b01cbe6aa625c8e5e5d0e12): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/27\/c9241a7904ff4579fbe53668206ad8da7d9cbb): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/4b\/c117a96ded11b5a573d236817ec9cafc6fdb18): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/11\/c04d2eb7c3bbd8e99556aa225c9a3a38ab6d25): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/11\/ce1830d6ff7f2cdfc1cca772abf9acbc3b8cce): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/11\/a977b7373dab15046354e1b27b88f29acdf44f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/29\/64ce8b97879bb305c28b4839aab6e28fb5892a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/29\/1e518bfda5574bde61d5dedce1941031fbdc16): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/7c\/35f7ed8f2996ed10aadafbd9f71a2dad99c68a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/42\/c5d08d7487c36ebbd1989020d9396f3f4880f0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/42\/21ce4796154763e5a049a5d19996f036892986): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/42\/6fd8a4516a4307b0656249290720183338ea2f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/42\/f37b4c7b83171288fba7260649c6f5887512c7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/45\/1757fa2c1b73e9f9bb40a0dde8585b7f0dc2d7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/1f\/215c65162ba098fb1a115fd077838015e066cf): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/80\/580189ad7f5453a16cbdf5f5c84824baa0ebcc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/1a\/b44161967005faa2c6fb5059a9527f24018b3b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/1a\/037045a9b0c5ee6c912951e285e4e911510507): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/28\/692b3414a26b7f2c5a332e9230a0cab27eb307): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/28\/5f8eec33947c1e72be310e9e176f6aecf65c97): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8f\/73024a8bb875428dff420aa5e77e64f99739d2): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/7e\/273d58880b5480b60db42e3095f6f8b464d432): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/10\/e31dd7e9673c7287f2466563b750710eb45476): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/10\/b2f9766d8f6b117479b22905584a9dc8d44c3a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/19\/08d3f9648c4cbe9a1bce3a50e7259fa6a5ed7a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/26\/d88c057d4e5c57a5c45da1be344b2585c47319): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/21\/230390eba85aba1eb022a49d87d4ec275e7ce7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/4d\/6521c0b02e6a946995e258ab722c8833ee0f35): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/4d\/91e7c1d64f5dc1de0e8ec71f19f782178a66fb): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/4d\/809fdc0537045e343d9147b6cea26350639c9f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/75\/34a90a139236e854e01f69e765e29d1c062995): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/81\/0f531cd3d7d99232b9591d6d37c5525ac3ed1a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/81\/10030c640ca2a6554a802287b118335a937740): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/44\/97ac0400fbfacc098868f93fb1d55bf3d2ac77): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/44\/44ff0f0765e675e2c2e3e496542f9ac9fa228a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/44\/c92bd81942baf03828e4a5d2d96df7912dbe66): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/2a\/b7536e134490dd9912b1dc02618de4f6310b66): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/2f\/9a5ece6a7286ae7cad8ba75c4a6d16162e32e2): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/43\/dde7d0fe586ea7eb7dc7253a7ae747906869fb): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/88\/192c9e8f361bdc033cf86f4001dad179efd752): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/88\/839f2092a295f577e1a285f571a5f4fa195df9): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/88\/2a60ee619faabba205733b311e5033d73869c9): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/88\/c4d64b7f7ef50faabf977b168076bb9750da17): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/9f\/312d5acb2aca5ea914e3cb57e7681b8b5ee5d0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/9f\/26fde03538350e750a76cf2415a62f960976af): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/6b\/3aa62dd619bad73540ede3459a4db91d31c7a6): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/6b\/376a2580c8821ceceb09fc4ee1f274130510f8): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/07\/26d4359a8f30eef0d0ca097a17994456343675): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/38\/ff92f4ca4b53879215996f267f2929dbf31280): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/38\/b9177530fdf31b36674d3b8c2ea4012a6a3937): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/38\/7a8b401f1ec9d3729ae6fe9850094a4dcee72f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/00\/69407259508bfcba0f8a09db36443a5ae8c8b1): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/6e\/e24ba1fcf605fb0512777842bfb0fe2fe707e9): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/9a\/eeeda7f3ec9e006f0c54aad40d6fa5c9d56486): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5d\/0f1c845f8d3f9ee60048532da547042c04cbc3): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5d\/d77bc6833761b7597149817bef758669e16076): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5d\/650896c0db3f35cf510dd9af7424793e180a41): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/91\/3898ec174ff443a27a97b21826fa4f59c22dbd): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/62\/aafdde684c0daaf96a63d1e85e09c0624067ec): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3a\/923011ec73de336b6d89f731b0a81dcc14c4a7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3a\/ccbc4fd4f883187c672b8328a714e9e9001302): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/54\/553deb9c67c3e3c573d4fbc770dd47c9710029): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/54\/250844ff611e8faa31cf0cd5e7ec6cb6cc299d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/3f\/f0c65b359a5ad5ca7e082a503bca7be6a6844b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/30\/ef7c62c1be25f5fb22ece630ae4d475ae564aa): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/30\/2f6bf8490b04f36c9588303d7a7238482e6012): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5e\/b8a5515412053d335ca360aa51f0722616b80f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5e\/3d69ee5d75a14c37e5b1f38bcd3f5b4270a541): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/5b\/9c74d1f67cf0d913cc8cedd41df8c4de9630a2): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/37\/c307e2261b176137716c6043c45eeca53cabc7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/01\/76366c33a1603507298fcf084bf6364e9ed58e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/06\/51285a819efedba101761b2d56791e5479908b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/06\/c9e2c4b3552555a69c37fab339671f407ba6ee): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/39\/b52f3cae23b6ea00da6da67fcf4b4e2bf97e8c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/55\/8435c1c70373e01474f8e602820c1f0aaacd9f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/63\/c8f7f84217fb91fa8c608f6aa3551d7010cfad): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/0a\/d76af3eeb6fa6619fcd3a794aaf78b9f61c045): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/bf\/7f5584a8a17080c1a13d446749b9de57ba4505): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/bf\/c8d70c0c1685e87f8da2a5280fc24c0074c5b8): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ba\/adb11403fd1794490e5a47871025236db9e1af): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ba\/4b399e96e87988de655e1f9e96a0153859800c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/a0\/16719eeba9a248b60bf348fd1a88e48e721756): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/a0\/cf7e29b581327a53c9f850c2f0f665a942b847): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b8\/b1cbabab7bc339d7e68c02652f1e6edee788bc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b1\/1b45a37bb04e620d288b2434a9b66218870966): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/dd\/317ed98ea635708f963def9f736e6a068d4f4f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/dc\/a98acdc4d2a427e87fc10e1c1885dc9df974d8): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/dc\/abc39beb1a31f218ab21ab83d9242f213240ee): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b6\/00774b02c43729ee83cbcff5fa9dbd148081ed): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/a9\/c95fedec17bb101c8c88f06db1ce15972884ce): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d5\/ebc1e3194d50f5495a3b26bc7daf5325e0b60d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d2\/9edadfefaf6d3b3a60483bbb2de5d7e550ab7a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/d2\/ad6235447aae845d5877a61d10b55ceebf83be): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/aa\/dcead2edc66982ac3bd73bedd4f0216226480f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/aa\/11e246ea2833c6bf304e473ae589091ec9e37b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/af\/8e16d6a911c097666e54a7abcb091187b07f0c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b7\/a1511a95a2f44a5e9ad4297c045a52fe9e0233): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b7\/1611c8746e28b75b7886f14404f70f14915e7f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b7\/2d150e4d8cc02a0c06df48ea33308c5ee9b6de): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/db\/5a7eb4549ec1406985347113efa74287a2f219): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/a8\/7fea2c74bcb8325a616a40245a73a84078ae27): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/a6\/3e0a8599e73b103aaf6be17a7c8226ad1cd474): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/b9\/694c97ec2077454845034fbd9c08bed5353f35): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ef\/a5c001868939bbde7d0303387e6702bddb2bda): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c3\/0e08aea45b0204e991517323e10902219dffa4): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c3\/1dc96b9e0176185c53cc75bf4f595aa1df6d4a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/ea\/4ecd869839516afc5185df65a7631f3df3d710): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cd\/13571b0a418d23a0857941967fad5e89c1d2f0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cd\/05a8ebe3efde795f195c61b1cb95d65a0254e8): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cd\/f6c115f3d378cebe5ebc27d9f32b6b8b949c8c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cc\/75fc21b7e243d89b3dd967a14840a44636c63f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cc\/979f3c0a7587487ec05533072ae487395c44d7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/f9\/ca8d91cd30d6b0000d725c9b4c4601a6ec3274): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e8\/81d8c596b22a7b2a5cec1103811b12ab9b806b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c5\/90848c65e0dc9e62505b24ef778e9b39e0bf43): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c5\/6a86fefa54cb3ccde040a7ce716d995dbff52c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/c5\/31d96fc55611ca5a93e9de167196becced225c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/f6\/aea870df225cdbedc0d5a381f8d45a9ca06517): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e9\/f25baf8c43bb3d887d8fb6c3faad36414550ca): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e9\/2522a94d82a571b84ac1de470bcb70b176023c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/f1\/74673117839c3ff29949edf212248fe3132e3a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/f1\/c499141accb569142e67a5ffff52ea1fb22cf1): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/e7\/07f9352fe35fb048671ef29493eb474da51db7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/cb\/2a85c22a77b596607de6e732379c0ea1904104): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/79\/085fbb6b77746b51e52283c4748dd8f83b606a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/2d\/a31250d120db63f6d9628e888cf7afe564d60b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/41\/c5a40a84cc4a7a53be211e6273894c01b3aa9f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/83\/26c30641e6dfce3b23d018edb30c7d044a7d1a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/83\/89550ffc829020af568625fbf8af0772e4f1f3): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/77\/19aa19deefa4002790a0c412b5f83e014fa259): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/77\/36a4cd7415889b5e6182e8b63b21c0da60cbba): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/77\/857a24236b0581b5369b757f2fb7489bf7e92b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/77\/56c3bfacf76d2ff6e7852cdc6ee4e8b3e1aa3d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/48\/54594f096ab381c3f497836ef6a513bde2e92c): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/24\/31011d8aebb9e6558d2ba608a4834a43c1ed82): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/24\/0260d052d2f35982cc9e7903b98c57d1509285): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/23\/a5de96be0dfd0bcbf342a67ef62b1039500a77): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8d\/64ea25069ea3eae84feaa2f91dd9d7feb2adf0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8d\/3477d2e378e13201c0ed949cb82b4804f2acf4): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/15\/b4407a0a00e53b17409dde65875ed387a672d7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/12\/3011e7067ea90f221432199a36ad055c61716f): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/12\/b779b42dd0f04899cf13ecd5f1a9aca32c9997): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/76\/51715f129e267d90a4595d110417b4584e18f7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/1c\/cde6b6c5671b375885083ea58c4b9c73619c87): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/82\/e9593ef14c770d69781f1cc3f00236b445e307): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/49\/7e07eda913871b1d61e8488e70cf156d038ccf): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/40\/9f8244e126b580df1b3a76b1efb62e4eb58951): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/40\/dba1a45d25f6e6b31e811b1464d4485081232e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/40\/a646f89394c1076158965f865d2cb9d11baebc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/40\/be4d918add473357851dcd32b3b17f54afae27): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/40\/a42c56512189d5fd4fe5ec64d0aa73f44d5500): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/2b\/2512d3c9bd13d742035f39e784ba849fdec50b): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/47\/e24001823aa165dbbee2386337f8a976e023d7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8b\/e3317a58961795dbb03d0efd67a26d29b62f08): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8b\/7df9f76c2c8ddaf8468d9e536bc04da761e63d): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8b\/89a1e6d024c6c3d3fbff916e8d6de2baf7970a): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8b\/12d3864a9c5cf8b67d197017ae6bb3f2864ef3): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8b\/995b77fc632df94a4d52f62497dd21ffe88ec0): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/13\/0367998fec2ff269df68a152d12e93c09d9d36): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/13\/52c5b029dc900a129e236df66b9fde76296d89): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/7a\/bdade70527d5a44de1ff4736b3b50a587bf772): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/14\/c55b6db2b1f27e5709f24f3f8901da78e88dcc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/14\/409f1fac8468d25210bf53f29a10f023e84932): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8e\/7246af5142e67737af693a0340f7f192ad4a8e): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/8e\/c1e8461d1d1d4cd7c7ef954984d06760cff142): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/22\/1c5e84d3805b096e1b98ad77c1526fdde38181): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/25\/1cb07331902de38e84348ee57b73e7f8f79249): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/25\/bd279672e030d500e1c7942a269b925d079dc7): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
+May 21 2021 23:28:35
+{"Number":2,"Message":"fopen(\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/themes\/muv-theme\/.git\/objects\/25\/d4f6db683e4cc90507e2e7741e48b9f898a7bc): failed to open stream: Permission denied","File":"\/Users\/iago\/Local Sites\/muv\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-extractor.php","Line":452}
+
