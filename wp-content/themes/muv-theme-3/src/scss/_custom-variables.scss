@@ -1,0 +1,331 @@
+$black:                       #000000;
+$brown:                       #C38D69;
+$light-brown:                 #E5B5A3;
+$orange:                      #A3523D;
+$light-orange:                #B55132;
+$blue:                        #b7bfcc;
+$cream:                       #ceab97;
+$white:                       #FFFFFF;
+$yellow:                      #f7d08f;
+$gray:                        #ebebeb;
+$blue:                        #7c9995;
+$light-blue:                  #DBE4E6;
+$red:                         #E54E5C;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "light":      $light,
+    "black":      $black,
+    "blue":       $blue,
+    "green":      $green,
+    "cream":      $cream,
+    "yellow":     $yellow
+  ),
+  $theme-colors
+);
+
+$primary:                     $black;
+$secondary:                   $white;
+
+$component-active-color:      $white;
+$component-active-bg:         $blue;
+
+// Fonts
+
+$font-family-sans-serif:      'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace ;
+$font-family-serif:           Georgia, SSFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace ;
+$font-family-base:            $font-family-sans-serif;
+
+$font-weight-base:            400;
+$line-height-base:            1.1;
+
+$headings-line-height:        1.2;
+
+// Links
+
+$link-color:                  $primary;
+$link-hover-color:            darken($link-color, 15%);
+
+// Spacing
+
+$spacer: 1rem;
+
+$spacers: () ;
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 2),
+    5: ($spacer * 3),
+    6: ($spacer * 4)
+  ),
+  $spacers
+);
+
+// Breakpoints
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px,
+//   xxxl: 1900px
+// );
+//
+// $container-max-widths: (
+//   sm: 90vw,
+//   md: 80vw,
+//   lg: 80vw,
+//   xl: 80vw,
+//   xxl: 80vw,
+//   xxxl: 80vw
+// );
+
+$grid-gutter-width:           5rem;
+
+// Indexs
+$zindex-hidden:               -1;
+$zindex-absolute:             900;
+
+
+// Side Menu
+$sidemenu-padding-y:                  $spacer;
+$sidemenu-padding-x:                  $spacer;
+
+$sidemenu-size:                       100vw;
+$sidemenu-size-sm:                    60vw;
+$sidemenu-size-md:                    50vw;
+
+
+// Logos
+$navbar-brand-max-width:              12rem;
+$footer-brand-max-width:              12rem;
+
+$enable-responsive-font-sizes:    false ;
+
+
+// Components
+
+$enable-rounded: false;
+
+$border-width:                0;
+$border-color:                $gray-300;
+
+
+// Cards
+
+$card-spacer-y:                     0.75rem;
+$card-spacer-x:                     1rem;
+$card-border-width:                 $border-width;
+$card-border-radius:                $border-radius;
+$card-border-color:                 rgba($black, .125);
+$card-inner-border-radius:          subtract($card-border-radius, $card-border-width);
+$card-cap-bg:                       rgba($black, .03);
+$card-cap-color:                    null;
+$card-height:                       null;
+$card-color:                        null;
+$card-bg:                           $white;
+$card-bg-hover:                     fade-out($blue,.9);
+
+$card-img-overlay-padding:          1.25rem;
+$card-img-height:                   15rem;
+$card-img-height-sm:                12rem;
+$card-img-height-md:                12rem;
+
+$card-group-margin:                 $grid-gutter-width / 2;
+$card-deck-margin:                  $card-group-margin;
+
+$card-columns-count:                3;
+$card-columns-gap:                  1.25rem;
+$card-columns-margin:               $card-spacer-y;
+
+$card-img-featured-height:          50vw;
+$card-img-featured-height-sm:       40vw;
+$card-img-featured-height-lg:       30vw;
+
+
+
+
+
+
+$my-type: () !default;
+
+$my-type-set: map-merge(
+  (
+    "text-01": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 1rem,
+      "lh": 1.1
+    ),
+    "text-02": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .9rem,
+      "lh": 1.1
+    ),
+    "text-03": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .85rem,
+      "lh": 1.2
+    ),
+    "display-01": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 4rem,
+      // "size-md": 1.8rem,
+      "lh": 1
+    ),
+    "display-02": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 3rem,
+      "lh": 1
+    ),
+    "display-03": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-bold,
+      "size": 2.5rem,
+      "lh": 1.1
+    ),
+    "display-04": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 1.75rem,
+      "lh": 1.1,
+    ),
+    "display-05": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 1.25rem,
+      "lh": 1.2
+    ),
+    "display-06": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 1rem,
+      "lh": 1
+    ),
+    "nav-text": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .9rem,
+      "size-md": .7rem,
+      "lh": 1.2
+    ),
+    "nav-title": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-bold,
+      "size": .93rem,
+      "size-md": .7rem,
+      "lh": 1.2
+    ),
+    "sidebar-nav-text": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": 1rem,
+      "size-md": .8rem,
+      "lh": 1.2
+    ),
+    "text-link": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .6rem,
+      "size-md": .5rem,
+      "lh": 1.1,
+      "tt": uppercase,
+      "ls": 1px,
+      "bb": 1px solid $blue
+    ),
+    "text-table": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .7rem,
+      "size-md": .65rem,
+      "lh": 1.2
+    ),
+    "text-data": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .55rem,
+      "lh": 1.2,
+      "tt": uppercase,
+      "ls": 1px
+    ),
+    "text-data-big": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .85rem,
+      "lh": 1.2,
+      "tt": uppercase,
+      "ls": 1px
+    ),
+    "text-cat": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .5rem,
+      "lh": 1.2,
+      "tt": uppercase,
+      "ls": 1px
+    ),
+    "text-legal": (
+      "family": $font-family-sans-serif,
+      "weight": $font-weight-normal,
+      "size": .6rem,
+      "ls": .05rem,
+      "lh": 1.2
+    ),
+    "bold": (
+      "weight": $font-weight-bold,
+    )
+  ),
+  $my-type
+);
+
+
+$my-colors: () !default;
+
+$my-colors-set: map-merge(
+  (
+    "bgWhite": (
+      "color": $blue,
+      "bg": $white,
+      "hover": fade-out($blue,.9),
+      "muted": $gray-600,
+      "comp": $blue,
+      "sm": fade-out($blue,.9)
+    ),
+    "bgBlue": (
+      "color": $white,
+      "bg": $blue,
+      "hover": fade-out($blue,.2),
+      "muted": $gray-600,
+      "comp": $red,
+    ),
+    "bgLightBlue": (
+      "color": $blue,
+      "bg": $light-blue,
+      "hover": fade-out($blue,.8),
+      "muted": $gray-600,
+      "comp": $blue,
+    ),
+    "bgRed": (
+      "color": $white,
+      "bg": $red,
+      "hover": fade-out($red,.2),
+      "muted": $gray-600,
+      "comp": $blue
+    ),
+  ),
+  $my-colors
+);

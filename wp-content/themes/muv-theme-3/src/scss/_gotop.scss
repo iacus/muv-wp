@@ -1,0 +1,20 @@
+.gotop {
+  z-index: $zindex-popover;
+  position: fixed;
+  right: -6rem;
+  bottom: 14rem;
+  @include transition;
+  width: 18rem;
+}
+.gotop-text {
+  display: block;
+  transform: rotate(-90deg) translateX(-3rem) !important;
+  color: $gray-800;
+
+  @include transition (color)
+  text-transform: uppercase;
+
+  &:hover {
+    color: $gray-200 !important;
+  }
+}

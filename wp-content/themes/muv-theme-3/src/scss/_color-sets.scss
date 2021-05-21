@@ -1,0 +1,34 @@
+@each $my-colors, $data in $my-colors-set {
+  [data-color='#{$my-colors}'] {
+    background-color: map-get($data, bg);
+    color: map-get($data, color);
+
+    .menu-trigger {
+      border-bottom: .05rem solid map-get($data, bg);
+      transition: background-color 200ms ease-out;
+
+      .no-touch &:hover{
+          background-color: map-get($data, hover);
+        }
+      .is-touch &.open {
+          background-color: map-get($data, hover);
+        }
+
+    }
+
+    a{
+      color: map-get($data, color);
+      transition: color 200ms ease-in-out;
+    }
+
+    ::selection {
+       background: map-get($data, color);
+       color: map-get($data, bg);
+    }
+
+    ::-moz-selection {
+       background: map-get($data, color);
+       color: map-get($data, bg);
+    }
+  }
+}

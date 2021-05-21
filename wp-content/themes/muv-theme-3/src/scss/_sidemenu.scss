@@ -1,0 +1,93 @@
+body{
+  &.open {
+     overflow: hidden;
+  }
+}
+
+.side-menu {
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: 5000;
+
+   padding: $sidemenu-padding-y;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
+
+   background-color: rgba($black, 1);
+   color: $white;
+   opacity: 0;
+   transition: opacity 0.5s ease-out 0.2s;
+   z-index: $zindex-hidden;
+   font-size: 1rem;
+   line-height: 1;
+
+   width: $sidemenu-size;
+
+   a {
+     color: $white;
+   }
+
+   .open & {
+     opacity: 1;
+     z-index: $zindex-fixed;
+   }
+
+   p{
+     margin-bottom: 0;
+   }
+
+   .cross {
+      position: absolute;
+      top: $sidemenu-padding-y;
+      right: $sidemenu-padding-x;
+      width: auto;
+
+      cursor: pointer;
+      transition: opacity 0.2s ease-out;
+
+      .stroke-group {
+         stroke: $white;
+      }
+
+      &:hover {
+         opacity: 0.6;
+      }
+   }
+}
+
+.nav-menu {
+   list-style-type: none;
+   padding: 0;
+   min-width: 10rem;
+   margin: auto 0;
+
+   li{
+     padding-left: 0;
+   }
+
+}
+
+.menu-item {
+  font-weight: $lead-font-weight;
+  line-height: 1.1;
+
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+.ticket {
+
+  @include dim;
+  svg path {
+    fill: $black;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}

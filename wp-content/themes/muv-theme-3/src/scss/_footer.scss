@@ -1,0 +1,21 @@
+.footer {
+  &-brand {
+    max-width: $footer-brand-max-width;
+  }
+
+  &-nav {
+
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      margin-left: 0;
+    }
+
+    li {
+      list-style: none;
+      margin-right: .5rem;
+    }
+  }
+
+}

@@ -1,0 +1,15 @@
+<article class="tease tease-{{post.post_type}}" id="tease-{{post.ID}}">
+	{% block content %}
+		<h2><a href="{{post.link}}">{{post.title}}</a></h2>
+		<p>{{post.ref}}</p>
+		{# <p>{{post.get_preview}}</p> #}
+		{% if post.get_thumbnail %}
+			{# <img loading="lazy" src="{{Image(post.thumbnail).src('small')}}" srcset="{{ Image(post.thumbnail).srcset }}" sizes="{{ Image(post.thumbnail).img_sizes }}" alt="{{Image(post.thumbnail).alt}}" /> #}
+			<picture>
+			   <source srcset="{{ post.thumbnail.src|towebp }}" type="image/webp">
+			   <source srcset="{{ post.thumbnail.src|tojpg }}" type="image/jpeg">
+			   <img src="{{ post.thumbnail.src|tojpg }}" alt="{{ post.title }}">
+			</picture>
+		{% endif %}
+	{% endblock %}
+</article>

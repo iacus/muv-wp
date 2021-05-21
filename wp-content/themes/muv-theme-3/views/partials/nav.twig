@@ -1,0 +1,27 @@
+{# Navbar #}
+<nav class="navbar navbar-light container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <div class="navbar-brand">
+        <a href="{{site.link}}">
+          <picture>
+            <img loading="lazy" src="{{Image(options.nav_logo.url).src('small')}}" srcset="{{ Image(options.nav_logo.url).srcset }}" sizes="{{ Image(options.nav_logo.url).img_sizes }}" alt="{{Image(options.nav_logo.url).alt}}" />
+          </picture>
+        </a>
+      </div>
+    </div>
+    <div class="col-6 d-flex justify-content-between align-items-start">
+      <div class="navbar-text text-02">
+        <p><strong>{{options.nav_text}}</strong></p>
+      </div>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"  aria-expanded="false" aria-label="Toggle navigation">
+        <svg width="25px" height="22px" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g stroke="none" stroke-width="1" fill="black" fill-rule="evenodd">
+                <path d="M0,0 L25,0 L25,2 L0,2 L0,0 Z M0,10 L25,10 L25,12 L0,12 L0,10 Z M0,20 L25,20 L25,22 L0,22 L0,20 Z" id="Fill-1" fill="#000000"></path>
+            </g>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+</nav>

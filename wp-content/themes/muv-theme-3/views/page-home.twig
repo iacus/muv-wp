@@ -1,0 +1,90 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+<main class="main-content">
+
+{% if post.meta('header_slider') %}
+  <!-- Header -->
+  <div class="hero" heigh="100vh">
+    <!-- Slider main container -->
+    <div class="swiper-container hero-slider">
+      <!-- Additional required wrapper -->
+      <div class="hero-slider-wrapper swiper-wrapper ">
+          <!-- Slides -->
+          {% for slide in post.meta('header_slider') %}
+            <div class="hero-slide swiper-slide">
+              <div class="overlay-video"></div>
+              <h2 class="hero-slide-title slide-from-top display-01 text-center">{{slide.text}}</h2>
+              <img class="img-fit swiper-lazy" data-src="{{ Image(slide.image).src('small') }}" srcset="{{ Image(slide.image).srcset }}" sizes="{{ Image(slide.image).img_sizes }}" alt="{{Image(slide.image).alt}}">
+              <div class="swiper-lazy-preloader-white"></div>
+            </div>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% for sect in post.meta('sections') %}
+
+  {# Section definitions props #}
+  {% if sect.circle_pos.label == 'Arriba' %}
+    {% set classes =  'half-circle half-circle-top' %}
+  {% elseif sect.circle_pos.label == 'Abajo' %}
+    {% set classes =  'half-circle half-circle-bottom' %}
+  {% elseif sect.circle_pos.label == 'Solo arriba en móvil' %}
+    {% set classes =  'half-circle-xs half-circle-top-xs' %}
+  {% else %}
+    {% set classes =  '' %}
+  {% endif %}
+
+  {% if sect.background_color.label == 'Azul' %}
+    {% set bgClasses =  'bg-blue' %}
+  {% elseif sect.background_color.label == 'Amarillo' %}
+    {% set bgClasses =  'bg-yellow' %}
+  {% elseif sect.background_color.label == 'Crema' %}
+    {% set bgClasses =  'bg-cream' %}
+  {% elseif sect.background_color.label == 'Gris' %}
+    {% set bgClasses =  'bg-light' %}
+  {% elseif sect.background_color.label == 'Verde' %}
+    {% set bgClasses =  'bg-green' %}
+  {% elseif sect.background_color.label == 'Blanco' %}
+    {% set bgClasses =  'bg-white' %}
+  {% else %}
+    {% set bgClasses =  '' %}
+  {% endif %}
+
+  {% if sect.circle_color.label == 'Azul' %}
+    {% set bgCircleClasses =  'half-circle-blue' %}
+  {% elseif sect.circle_color.label == 'Amarillo' %}
+    {% set bgCircleClasses =  'half-circle-yellow' %}
+  {% elseif sect.circle_color.label == 'Crema' %}
+    {% set bgCircleClasses =  'half-circle-cream' %}
+  {% elseif sect.circle_color.label == 'Blanco' %}
+    {% set bgCircleClasses =  'half-circle-white' %}
+  {% elseif sect.circle_color.label == 'Verde' %}
+    {% set bgCircleClasses =  'half-circle-green' %}
+  {% elseif sect.circle_color.label == 'Marrón' %}
+    {% set bgCircleClasses =  'half-circle-brown' %}
+  {% else %}
+    {% set bgCircleClasses =  '' %}
+  {% endif %}
+
+  {% set top_space_md = "pt-md-" ~ sect.top_space_md %}
+  {% set bottom_space_md = "pb-md-" ~ sect.bottom_space_md %}
+  {% set top_space_xs = "pt-" ~ sect.top_space_xs %}
+  {% set bottom_space_xs = "pb-" ~ sect.bottom_space_xs %}
+  {% set vertSpace = top_space_md ~ " " ~ bottom_space_md ~ " " ~ top_space_xs ~ " " ~ bottom_space_xs %}
+
+  <section id="{{sect.link_section}}" class="{{bgClasses}} {{classes}} {{bgCircleClasses}} {{vertSpace}}">
+  {% include 'partials/flexible.twig'%}
+
+  </section>
+
+{% endfor %}
+
+
+
+</main>
+
+{% endblock %}

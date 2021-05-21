@@ -1,0 +1,59 @@
+.hero {
+
+  &-slider {
+    min-height: 100vh;
+  }
+
+  &-slider-wrapper {
+    height: 100vh;
+
+  }
+
+  &-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  &-slide-title {
+    position: absolute;
+    color: $white;
+    @include nobr-md;
+    width: 85%;
+
+    @include media-breakpoint-up (md) {
+      width: 70%;
+    }
+  }
+}
+
+.swiper-container{
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  font-size: 4vw;
+  color: $primary;
+  width: auto;
+
+  @include media-breakpoint-up (md) {
+    font-size: 2vw;
+  }
+
+  &::after{
+    display: none;
+  }
+}
+
+
+.overlay-video {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}

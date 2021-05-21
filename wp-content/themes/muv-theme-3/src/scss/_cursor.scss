@@ -1,0 +1,51 @@
+html.cursor-activated *,
+body{
+  cursor: none !important;
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 100010;
+    pointer-events: none;
+    background-color: transparent;
+    transform-origin: center;
+    display: block;
+    opacity: 1;
+    transition: transform 200ms ease;
+    mix-blend-mode: difference;
+
+    @include media-breakpoint-up (md) {
+      display: block;
+    }
+}
+
+.cursor.active {
+  circle {
+    fill: $black;
+  }
+}
+
+.is-touch .cursor {
+  display: none;
+}
+
+@media (hover: hover) {
+  .cursor {
+      position: fixed;
+      margin-top: -10px;
+      margin-left: -10px;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      z-index: 5000;
+      pointer-events: none;
+      background-color: transparent;
+      transform-origin: center;
+      mix-blend-mode: difference;
+  }
+}

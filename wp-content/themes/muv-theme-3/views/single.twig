@@ -1,0 +1,21 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<article class="single container-fluid">
+		<div class="wp-block-columns">
+			<div class="wp-block-column">
+				<a href="../">volver</a>
+				<h1>{{post.title}}  –––––</h1>
+				<h1><em>{{post.subtitle}}</em></h1>
+				<p class="text-cat">{{post.ref}}</p>
+			</div>
+			<div class="wp-block-column">
+				<h1>{{post.date_start}}</h1>
+				<h1>{{post.date_end}}</h1>
+			</div>
+		</div>
+
+
+	  {{post.content}}
+	</section>
+{% endblock %}

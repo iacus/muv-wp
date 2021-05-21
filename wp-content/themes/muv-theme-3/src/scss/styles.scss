@@ -1,0 +1,64 @@
+/*!
+* Bootstrap v4.3.1 (https://getbootstrap.com/)
+* Copyright 2011-2019 The Bootstrap Authors
+* Copyright 2011-2019 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+
+/*! Theme created with the Bootstrap Shuffle (https://bootstrapshuffle.com) */
+
+// Required
+@import 'mybs/functions';
+@import 'mybs/mixins';
+// Required Bootstrap variables
+@import 'mybs/variables';
+// Your variables
+@import 'custom-variables';
+// Optional
+@import 'mybs/root';
+@import 'mybs/reboot';
+@import 'mybs/type';
+@import 'mybs/images';
+@import 'mybs/code';
+@import 'mybs/grid';
+@import 'mybs/tables';
+@import 'mybs/forms';
+@import 'mybs/buttons';
+@import 'mybs/transitions';
+@import 'mybs/dropdown';
+@import 'mybs/button-group';
+@import 'mybs/input-group';
+@import 'mybs/custom-forms';
+// @import 'mybs/nav';
+// @import 'mybs/navbar';
+@import 'mybs/card';
+@import 'mybs/breadcrumb';
+@import 'mybs/pagination';
+@import 'mybs/badge';
+@import 'mybs/jumbotron';
+@import 'mybs/alert';
+@import 'mybs/progress';
+@import 'mybs/media';
+@import 'mybs/list-group';
+@import 'mybs/close';
+@import 'mybs/toasts';
+@import 'mybs/modal';
+@import 'mybs/tooltip';
+@import 'mybs/popover';
+@import 'mybs/carousel';
+@import 'mybs/spinners';
+@import 'mybs/utilities';
+@import 'mybs/print';
+
+// Your styles
+@import "base";
+@import "fonts";
+@import "type-sets";
+
+@import "layout/layout";
+@import "layout/gutemberg";
+
+// Components
+@import "nav";
+@import "sidemenu";
+@import "footer";

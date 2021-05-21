@@ -1,0 +1,6 @@
+.wp-block-column:not(:first-child) {
+  @include media-breakpoint-up (md) {
+    margin-left: $grid-gutter-width;
+  }
+
+}

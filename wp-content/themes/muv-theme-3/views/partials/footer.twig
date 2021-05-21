@@ -1,0 +1,37 @@
+<div class="footer-inner container-fluid">
+  <div class="row">
+    {# Footer brand area #}
+    <div class="col-6">
+      {% if options.footer_logo %}
+        <div class="footer-brand">
+          {% if options.footer_logo_link %}
+            <a href="{{options.footer_logo_link.url}}" target="{{options.footer_logo_link.target}}" title="{{options.footer_logo_link.title}}">
+              <picture>
+                <img loading="lazy" src="{{Image(options.footer_logo.url).src('small')}}" srcset="{{ Image(options.footer_logo.url).srcset }}" sizes="{{ Image(options.footer_logo.url).img_sizes }}" alt="{{Image(options.footer_logo.url).alt}}" />
+              </picture>
+            </a>
+          {% else %}
+            <picture>
+              <img loading="lazy" src="{{Image(options.footer_logo.url).src('small')}}" srcset="{{ Image(options.footer_logo.url).srcset }}" sizes="{{ Image(options.footer_logo.url).img_sizes }}" alt="{{Image(options.footer_logo.url).alt}}" />
+            </picture>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+
+    {# Footer menu area #}
+    <div class="col-6">
+      <nav class="footer-nav">
+        {% if footer %}
+          <ul>
+            {% for nav in footer.get_items %}
+              <li class="nav-item">
+                <a href={{nav.url}} class="text-legal {{nav.class}}" target="{{item.target}}">{{nav.title}}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+</div>

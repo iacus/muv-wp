@@ -1,0 +1,23 @@
+.navbar {
+  position: fixed;
+  z-index: $zindex-fixed;
+
+}
+
+.navbar-brand {
+  max-width: $navbar-brand-max-width;
+}
+
+.navbar-text {
+  display: none;
+  @include media-breakpoint-up (md) {
+    display: block;
+  }
+}
+
+.navbar-toggler {
+  padding-right: 0 !important;
+  background-color: transparent;
+  border: none;
+  height: auto;
+}
