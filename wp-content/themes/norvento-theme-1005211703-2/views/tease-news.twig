@@ -1,0 +1,46 @@
+<div class="card col-sm-6 col-xl-4 {{post.meta('bgColor').value}} tease-{{post.post_type}}" id="tease-{{post.ID}}">
+	{% block content %}
+	{% if post.thumbnail %}
+		<a href="{{post.link.url}}" target="{{post.link.target}}">
+			<div class="card-img-wrapper">
+				<img class="card-img" loading="lazy" src="{{ Image(post.thumbnail).src('small') }}" srcset="{{ Image(post.thumbnail).srcset }}" sizes="{{ Image(post.thumbnail).img_sizes }}" alt="{{Image(post.thumbnail).alt}}" />
+			</div>
+		</a>
+		{# <a href="{{post.link}}"><img class="card-img" loading="lazy" src="{{ Image(post.thumbnail).src('small') }}" srcset="{{ Image(post.thumbnail).srcset }}" sizes="{{ Image(post.thumbnail).img_sizes }}" alt="{{Image(post.thumbnail).alt}}" /></a> #}
+	{% endif %}
+	<div class="card-body">
+
+		<div class="text-cat mb-1">
+		{{post.post_date|date("j F Y")}}
+		</div>
+
+		{% if post.categories %}
+			<div class="text-cat mb-2">
+				{% for item in post.categories %}
+					<a class="dim" href="{{item.link}}">{{item.title}}</a>
+				{% endfor %}
+			</div>
+		{% endif %}
+
+
+
+
+		{% if post.thumbnail %}
+
+		<h3 class="card-title text-02 bold"><a href="{{post.link}}">{{post.title}}</a></h3>
+		{% else %}
+		<h3 class="card-title display-05 bold"><a href="{{post.link}}">{{post.title}}</a></h3>
+		{% endif %}
+		{% if post.post_excerpt %}
+			<p class="text-04">{{post.post_excerpt}}</p>
+		{% endif %}
+
+		{% if post.link %}
+			<div class="bottom">
+				<a class="card-link text-link stretched-link" href="{{post.link}}">Ver</a>
+			</div>
+		{% endif %}
+
+	</div>
+	{% endblock %}
+</div>

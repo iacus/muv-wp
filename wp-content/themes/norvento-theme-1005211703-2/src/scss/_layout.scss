@@ -1,0 +1,43 @@
+.ly-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+
+  @include media-breakpoint-up (md) {
+    grid-template-columns: $leftbar-width-md auto;
+  }
+}
+
+.ly-nav {
+  // background-color: $gray-100;
+  z-index: $zindex-tooltip;
+  // height: $leftbar-width;
+  width: 100%;
+  position: fixed;
+}
+
+.ly-main{
+  background-color: $white;
+  // min-height: 200vh;
+  grid-column: 1 / span 2;
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  @include media-breakpoint-up (md) {
+    grid-column: 2;
+  }
+}
+
+.ly-sidebar {
+  // background-color: $blue;
+  min-height: 100vh;
+  display: none;
+
+  @include media-breakpoint-up (md) {
+    grid-column: 1;
+    display: block;
+  }
+}
+
+.ly-footer {
+  grid-column: 1 / span 2;
+}

@@ -1,0 +1,25 @@
+<section class="flModule">
+  <div class=" bloc-imageFull mb-5 {{Image(flexblock.image).id_video ? 'bloc-imageFull--video'}}">
+        <div class="imageBg reveal-soft">
+          {% if Image(flexblock.image).id_video %}
+              <div class="" data-plyr-provider="{{ Image(flexblock.image).source }}" data-plyr-embed-id="{{ Image(flexblock.image).id_video }}"></div>
+          {% else %}
+            <picture >
+              <img loading="lazy" src="{{Image(flexblock.image).src('small')}}" srcset="{{ Image(flexblock.image).srcset }}" sizes="{{ Image(flexblock.image).img_sizes }}" alt="{{Image(flexblock.image).alt}}" />
+            </picture>
+          {% endif %}
+        </div>
+        {% if flexblock.text %}
+          <div class="container reveal-soft text my-5">
+            <div class="row">
+              <div class="col-md-6">
+                {{flexblock.text}}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+
+  </div>
+
+</section>

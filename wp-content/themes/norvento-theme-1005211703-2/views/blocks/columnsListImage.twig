@@ -1,0 +1,27 @@
+<!-- Slider Gallery-->
+<section class="flModule">
+<div class="features-bloc reveal-soft flModule-spacer {{flexblock.bgColor.value}}">
+  <div class="container- ">
+    <div class="row pl-flex ">
+      <div class=" col-md-6 pr-5 pb-sm-3 pb-md-5 pt-5">
+        {{flexblock.title}}
+        <ol class="py-4 list-line text-03">
+          {% for item in flexblock.list %}
+              <li class="py-3 flex-column">
+                <span class="bold">{{item.title}}</span>
+                {{item.text}}
+              </li>
+          {% endfor %}
+        </ol>
+      </div>
+      <div class="col-md-6 px-0">
+        <div class="features-image">
+            <img class="multiply" loading="lazy" src="{{Image(flexblock.image).src('small')}}" srcset="{{ Image(flexblock.image).srcset }}" sizes="{{ Image(flexblock.image).img_sizes }}" alt="{{Image(flexblock.image).alt}}" />
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>

@@ -1,0 +1,77 @@
+// Template C
+
+.page-header--c {
+  display: flex;
+  flex-wrap: wrap;
+  @include fluidMl;
+
+  @include media-breakpoint-up (xl) {
+    min-height: 35rem;
+  }
+
+  .header-title {
+    padding-right: $spacer;
+    padding-bottom: $spacer;
+
+    @include media-breakpoint-up (md) {
+      width: calc(46.5%);
+      margin-bottom: 0;
+      padding-right: $spacer * 2;
+      padding-bottom: $spacer * 2;
+    }
+    p,span {
+      margin-bottom: 0;
+    }
+  }
+
+  .header-image {
+    z-index: 5;
+    width: 100%;
+
+    @include media-breakpoint-up (md) {
+      width: 53.5%;
+      max-height: 40vw;
+      overflow: hidden;
+      position: relative;
+    }
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: top;
+
+    }
+
+  }
+
+  .header-description {
+    background-color: $blue;
+    color: $white;
+    width: 100%;
+    display: flex;
+
+    @include media-breakpoint-up (md) {
+      min-height: $spacer * 6;
+    }
+
+    @include media-breakpoint-up (xl) {
+      margin-top: -$spacer * 8;
+      min-height: $spacer * 10;
+    }
+
+  }
+
+  .header-description-inner {
+    width: 100%;
+    padding: 1.35rem;
+    margin-top: auto;
+
+    @include media-breakpoint-up (xl) {
+      width: calc(46.5%);
+      padding-right: 1rem;
+      margin-bottom: auto;
+      margin-top: 0;
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+/* Additiona styles for WPML traduction plugin language selector*/
+
+.wpml-ls-display {
+display: none!important;}
+
+.wpml-ls-legacy-list-horizontal {
+	padding:0 !important;
+	border:none !important;
+}
+
+.wpml-ls-legacy-list-horizontal a {
+padding: 0 !important;
+margin-right: .5rem !important;
+padding-bottom: .25rem !important;
+}
+
+.wpml-ls-legacy-list-horizontal a:hover {
+ border-bottom: 1px solid white;
+}
+
+.wpml-ls-current-language a{
+  border-bottom: 1px solid white;
+}

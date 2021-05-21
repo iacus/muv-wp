@@ -1,0 +1,41 @@
+<!-- Slider Gallery-->
+<section class="flModule">
+<div class="slider {{flexblock.bgColor.value}}">
+  <div class="container reveal-soft flModule-spacer">
+    <div class="row">
+      <div class="col-md-6 wysiwyg-txt">
+            {{flexblock.title}}
+      </div>
+    </div>
+
+
+    <div class="row no-gutters reveal-soft">
+      <div class="col-12">
+        <!-- Slider main container -->
+        <div class="slider-gallery pt-3 swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              {% for slide in flexblock.slides %}
+                <div class="swiper-slide">
+                  <img class="slider-image img-fit pb-3" loading="lazy" src="{{ Image(slide.image).src('small')|towebp }}" srcset="{{ Image(slide.image).srcset }}" sizes="{{ Image(slide.image).img_sizes }}" alt="{{Image(slide.image).alt}}" />
+                  <div class="swiper-lazy-preloader-white"></div>
+                  <div class="slider-info">
+                    {% if slide.text %}
+                      <div class="pt-1 text-04">
+                        {{slide.text}}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>

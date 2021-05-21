@@ -1,0 +1,19 @@
+
+
+
+@mixin button {
+  background-color: $red;
+  padding: $spacer * .5 $spacer;
+  border-radius: $spacer * .25;
+  transition: background-color 300ms ease-out;
+  margin: $spacer 0;
+  color: $white;
+
+  &:hover {
+    background-color: fade-out($red,.2);
+  }
+}
+
+.button {
+  @include button;
+}

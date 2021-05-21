@@ -1,0 +1,41 @@
+<!-- Slider -->
+<section class="flModule">
+  <div class="fluidPl">
+    <div class="row reveal-soft">
+      <div class="col-12 mb-5">
+        <!-- Slider main container -->
+        <div class="slider-arrows swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              {% for slide in flexblock.slides %}
+                <div class="swiper-slide">
+                  <img class="slider-image img-fit pb-3" loading="lazy" src="{{ Image(slide.image).src('small')|towebp }}" srcset="{{ Image(slide.image).srcset }}" sizes="{{ Image(slide.image).img_sizes }}" alt="{{Image(slide.image).alt}}" />
+                  <div class="swiper-controls">
+                    <div class="swiper-button-prev dim"></div>
+                    <div class="swiper-button-next dim"></div>
+                  </div>
+                  <div class="swiper-lazy-preloader-white"></div>
+                  <div class="slider-info d-flex row flex-column no-gutters">
+                      <div class="col-8 col-sm-8 col-md-7 col-lg-6">
+                        {% if loop.index == 1 %}
+                          <h1 class="display-05 mb-3 bold">{{slide.title}}</h2>
+                        {% else %}
+                          <h2 class="display-05 mb-3 bold">{{slide.title}}</h2>
+                        {% endif %}
+                      </div>
+                      <div class="col-8 col-sm-8 col-md-7 col-lg-6">
+                        {{slide.text}}
+                        {% if slide.link %}
+                          <a class="slider-link dim text-link" href="{{slide.link.url}}">{{slide.link.title}}</a>
+                        {% endif %}
+                      </div>
+                  </div>
+                </div>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

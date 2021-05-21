@@ -1,0 +1,73 @@
+{% extends "base.twig" %}
+
+{% block content %}
+		<header class="page-header ">
+			<div class="container reveal-soft">
+				<div class="row">
+					<div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
+					{# Title #}
+					<div class="header-title mb-2">
+						<p class="text-cat mb-2">{% if options.blogPage.url %}<a class="dim" href="{{options.blogPage.url}}">< {{ __('Volver', 'theme') }}</a> | {% endif %}<span>{{post.post_date|date("j F Y")}}</span></p>
+						<h1 class="display-03 pb-3">{{post.title}}</h1>
+					</div>
+
+					{% if post.post_excerpt %}
+						<h2 class="text-01 pb-3">{{post.post_excerpt}}</h2>
+					{% endif %}
+
+					{% if post.thumbnail %}
+						<img loading="lazy" src="{{Image(post.thumbnail).src('small')}}" srcset="{{ Image(post.thumbnail).srcset }}" sizes="{{ Image(post.thumbnail).img_sizes }}" alt="{{Image(post.thumbnail).alt}}" />
+					{% endif %}
+
+					<div class="post-content reveal-soft guttemberg-txt py-3">
+						{{post.content}}
+					</div>
+
+					{% if post.meta('name') %}
+					<div class="post-person reveal-soft pb-3">
+
+						{# Entrevistado blog #}
+							<div class="container person-block my-2 bgLightBlue">
+								<div class="row py-3">
+								{% if post.meta('portrait') %}
+									<div class="col-4 pl-3 person-image pr-0 pb-3">
+										<img loading="lazy" src="{{Image(post.portrait).src('small')}}" srcset="{{ Image(post.portrait).srcset }}" sizes="{{ Image(post.portrait).img_sizes }}" alt="{{Image(post.portrait).alt}}" />
+									</div>
+								{% endif %}
+								{% if post.meta('name') %}
+								<div class="col-8 person-text">
+									<h3 class="person-name text-03 bold mb-1"> {{post.meta('name')}}</h3>
+									<div class="person-bio text-03">{{post.meta('bio')}}</div>
+
+									{% if post.meta('links') %}
+									<div class="bottom card-links">
+											{% for item in post.meta('links') %}
+												<a class="card-link text-link dim" href="{{item.link.url}}" target="{{item.link.target}}">{{item.link.title}} </a>
+											{% endfor %}
+									</div>
+									{% endif %}
+								</div>
+
+								{% endif %}
+								</div>
+							</div>
+
+					</div>
+					{% endif %}
+					{% include '/partials/share.twig' %}
+					{% include '/partials/prevnext.twig' %}
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+		</header>
+
+
+	{# Flexible #}
+	{% include "partials/flexible.twig" %}
+
+{% endblock %}

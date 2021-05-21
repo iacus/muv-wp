@@ -1,0 +1,64 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <header class="page-header page-header--b page-header-cine page-header--ml">
+
+    <div class="header-title ">
+
+      {% if post.fullTitle %}
+        <h1 class="display-03">{{post.fullTitle}}</h1>
+      {% else %}
+        <h1 class="display-03">{{post.title}}</h1>
+      {% endif %}
+    </div>
+
+      <div class="header-image">
+        <picture class="header-image--0" data-src="{{Image(post.image1)}}" data-srcset="{{ Image(post.image1).srcset }}" sizes="{{ Image(post.image1).img_sizes }}">
+
+        </picture>
+        <picture class="header-image--1" data-src="{{Image(post.image2)}}" data-srcset="{{ Image(post.image2).srcset }}" sizes="{{ Image(post.image2).img_sizes }}">
+
+        </picture>
+        <picture class="header-image--2" data-src="{{Image(post.image3)}}" data-srcset="{{ Image(post.image3).srcset }}" sizes="{{ Image(post.image3).img_sizes }}">
+
+        </picture>
+      </div>
+
+    <div class="header-info">
+      <p>
+        <a class="dim" href="/contacto">
+          <span class="text-data">{{ __('Localización', 'theme') }}</span>
+          <span class="text-data-big">43.040155, -7.555964</span>
+        </a>
+      </p>
+      <p>
+        <span class="text-data">{{ __('Día', 'theme') }}</span>
+        <span class="text-data-big date">{{"now"|date('d / m / Y')}}</span>
+      </p>
+      <p>
+        <span class="text-data">{{ __('Hora', 'theme') }}</span>
+        <span class="text-data-big clock">{{"now"|date('h:m:s')}}H</span>
+      </p>
+    </div>
+
+    {# <div class="header-buttons">
+      <button class="button-data text-data button-live" type="button" name="button" data-button="all" >Estado Producción</button>
+      <button class="button-data text-data" type="button" name="button" data-button="0">Sistema eléctrico</button>
+      <button class="button-data text-data" type="button" name="button" data-button="1">Sistema térmico</button>
+      <button class="button-data text-data" type="button" name="button" data-button="2">Condiciones ambientales</button>
+    </div> #}
+
+    <div class="data">
+      <div class="cross crossData">
+        {% include 'partials/cross.twig' %}
+      </div>
+      <div class="dataWrapper">
+
+      </div>
+    </div>
+
+  </header>
+
+  {% include "partials/flexible.twig" %}
+
+{% endblock %}

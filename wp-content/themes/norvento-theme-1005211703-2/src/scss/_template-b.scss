@@ -1,0 +1,79 @@
+// Template B
+.page-header--b {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin-bottom: 3rem;
+
+  .header-title {
+    color: $white;
+    z-index: 2;
+
+    @include media-breakpoint-up (md) {
+      width: 50%;
+    }
+  }
+
+  .header-image {
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+
+    &::before,&::after{
+      content: "";
+      display: block;
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 15.625rem;
+      mix-blend-mode: multiply;
+      z-index: 1;
+      background: -webkit-gradient(linear,left top,left bottom,from(rgba(25,25,32,.55)),to(rgba(25,25,32,0)));
+      background: -webkit-linear-gradient(rgba(25,25,32,.55),rgba(25,25,32,0));
+      background: linear-gradient(rgba(25,25,32,.55),rgba(25,25,32,0));
+    }
+
+    &::before{
+      top: 0;
+    }
+
+    &::after{
+      bottom: 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(25,25,32,0)),to(rgba(25,25,32,.55)));
+    background: -webkit-linear-gradient(rgba(25,25,32,0),rgba(25,25,32,.55));
+    background: linear-gradient(rgba(25,25,32,0),rgba(25,25,32,.55));
+    }
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .header-description {
+    z-index: 2;
+    background-color: $blue;
+    color: $white;
+    width: 100%;
+    padding-left: $spacer * 1;
+    padding-right: $spacer * 1;
+    padding-top: $spacer * .9;
+    padding-bottom: 0;
+    margin-top: auto;
+    @include media-breakpoint-up (md) {
+      padding-left: $spacer * 1.5;
+      padding-right: $spacer * 1.5;
+      padding-top: $spacer * 1.25;
+      padding-bottom: 0;
+    }
+  }
+
+  .header-description-inner {
+    max-width: 700px;
+  }
+
+}

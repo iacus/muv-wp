@@ -1,0 +1,290 @@
+// Template B
+.page-header-cine {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin-bottom: 3rem;
+  flex-direction: column;
+
+
+  .header-buttons,
+  .header-info {
+    z-index: 2;
+    margin-top: auto;
+  }
+
+  .header-buttons {
+    display: flex;
+    flex-grow: wrap;
+    padding-right: $spacer;
+  }
+
+  .openData & .header-image {
+    cursor: pointer;
+  }
+
+}
+
+.dark-theme {
+
+  .ly-main {
+    background-color: $blue;
+  }
+
+  .sidebar-top-spacer {
+    background-color: transparent;
+  }
+
+  .ly-sidebar {
+    background-color: transparent;
+  }
+
+  .ly-wrapper {
+    background-color: $blue
+  }
+
+  .sidebar-content {
+    background-color: $white;
+  }
+
+  .sidebar-brand {
+    background-color: $white;
+  }
+
+  .sidebar-brand path{
+    fill: $blue;
+  }
+
+  color: $white;
+}
+
+
+.data {
+  z-index: 5000;
+  position: fixed;
+  width: 100%;
+  background-color: fade-out($black,.3);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: $spacer;
+  overflow-y: scroll;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-out 0.2s;
+
+  @include media-breakpoint-up (md) {
+    width: 80%;
+  }
+  @include media-breakpoint-up (lg) {
+    width: 70%;
+  }
+  @include media-breakpoint-up (xl) {
+    width: 60%;
+  }
+}
+
+.data {
+  .openData &{
+    transform: translateX(0);
+  }
+}
+
+// .il ul {
+//   display: flex;
+//
+//   li {
+//     display: inline-flex;
+//   }
+// }
+
+.button-data {
+  color: $white;
+  padding: $spacer $spacer / 2;
+  background-color: fade-out($black,.6);
+  margin-bottom: 0;
+  transition: background-color 300ms ease;
+  // max-width: 5rem;
+  margin-right: $spacer / 4;
+  height: 3.5rem;
+  position: relative;
+
+  &:hover {
+    background-color: fade-out($black,0);
+  }
+
+  @include media-breakpoint-up (md) {
+    max-width: 6rem;
+    margin-right: $spacer / 2;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.button-live::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: $spacer / 3;
+  right: $spacer / 3;
+  width: $spacer / 3;
+  height: $spacer / 3;
+  border-radius: 100%;
+  background-color: $green;
+  animation: blinker 2s linear infinite;
+}
+
+.header-info {
+  background-color: fade-out($black,.6);
+  padding: $spacer;
+  max-width: 500px;
+  width: auto;
+  margin-right: $spacer;
+
+  span {
+    display: block;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.data .cross {
+  background-color: fade-out($white,.8);
+}
+
+.tableData {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  tr {
+    border-top: 1px dotted $gray-500;
+  }
+}
+
+.il {
+  margin-left: 0rem;
+  @include media-breakpoint-up (md) {
+    margin-left: 4rem;
+  }
+  @include media-breakpoint-up (lg) {
+    margin-left: 6rem;
+  }
+  @include media-breakpoint-up (xl) {
+    margin-left: 7rem;
+  }
+
+}
+
+.il .il {
+    margin-left: 5rem;
+
+  @include media-breakpoint-up (xl) {
+    margin-left: 7rem;
+  }
+  @include media-breakpoint-up (xxl) {
+    margin-left: 8rem;
+  }
+
+}
+
+.il .il .il {
+
+
+  margin-left: 5rem;
+
+@include media-breakpoint-up (xl) {
+  margin-left: 7rem;
+}
+@include media-breakpoint-up (xxl) {
+  margin-left: 8rem;
+}
+
+
+}
+
+td > ul.il li {
+    // margin-bottom: .5rem;
+}
+
+.il .il {
+  border-top: 1px dotted $gray-500;
+  padding-top: .5rem;
+  margin-top: .25rem;
+
+  &:hover {
+    // background-color: fade-out($white,.5);
+  }
+}
+
+.index-1 > .il{
+  border: none !important;
+  padding-top: 0!important;
+  margin-top: 0!important;
+}
+
+.il li {
+  display: block;
+}
+
+li.nombre {
+  float: left;
+}
+
+.energia ul li ul,
+.potencia ul,
+.carga ul   {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.carga ul{
+  display: flex !important;
+  justify-content: flex-start;
+}
+
+.energia .valor,
+.potencia .valor,
+.carga .valor {
+  margin-left: auto;
+}
+
+.unidad {
+  padding-left: .25rem;
+}
+
+
+// Toggle data tables
+.dataWrapper[data-table='all'] {
+  .tableGroup{
+    display: block;
+  }
+}
+.dataWrapper[data-table='0'] {
+  .tableGroup{
+    display: none;
+  }
+  .tableGroup-0{
+    display: block;
+  }
+}
+
+.dataWrapper[data-table='1'] {
+  .tableGroup{
+    display: none;
+  }
+  .tableGroup-1{
+    display: block;
+  }
+}
+.dataWrapper[data-table='2'] {
+  .tableGroup{
+    display: none;
+  }
+  .tableGroup-2{
+    display: block;
+  }
+}

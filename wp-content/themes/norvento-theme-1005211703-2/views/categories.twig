@@ -1,0 +1,9 @@
+<ul class="list-line dim-items">
+  {% for item in categories %}
+    <li class="">
+      <a class="text-03 bold d-flex" href="{{item.path}}">{{item.title}}
+        <span class="ml-auto px-2">→</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

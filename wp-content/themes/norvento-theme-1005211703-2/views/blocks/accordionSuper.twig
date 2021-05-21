@@ -1,0 +1,44 @@
+{# Accordion Super #}
+<section class="flModule">
+<div class="container mb-5">
+  <div class="reveal-soft">
+    {{flexblock.title}}
+  </div>
+
+    <div class="accordion accordion--super reveal-soft">
+    {% for item in flexblock.accordionGroup %}
+      <div class="d-flex no-gutters">
+        <div class="col-md-3 col-xl-4"></div>
+        <div class="card ml-auto col-12 col-md-9 col-xl-8">
+          <div class="card-head dim" id="heading-{{loop.index}}">
+            <h2 class="accordion-title display-05 bold collapsed py-3" data-toggle="collapse" data-target="#collapse-{{loop.index}}" aria-expanded="true" aria-controls="collapse-{{loop.index}}">
+              {% if item.subtitle %}
+                <span class="card-subtitle text-03">{{item.subtitle}}</span>
+              {% endif %}
+              {{item.title}}
+            </h2>
+            <div class="accordion-drop accordion-drop--arrow my-3 display-05 bold">↓</div>
+          </div>
+
+          <div id="collapse-{{loop.index}}" class="collapse" aria-labelledby="heading-{{loop.index}}" data-parent="#accordionExample">
+            <div class="card-body py-1">
+              <div class="row text-03">
+                {% if item.image %}
+                  <div class="col-12">
+                    <img class="card-image img-fit pb-3" src="{{ Image(item.image).src('small') }}" srcset="{{ Image(item.image).srcset }}" sizes="{{ Image(item.image).img_sizes }}" alt="{{Image(item.image).alt}}" />
+                  </div>
+                {% endif %}
+                <div class="col-12 col-md-10 mr-auto wysiwyg-txt">
+                  {{item.text1}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+    </div>
+
+</div>
+</section>

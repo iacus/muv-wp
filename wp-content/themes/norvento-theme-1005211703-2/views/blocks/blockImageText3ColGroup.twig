@@ -1,0 +1,42 @@
+<section class="flModule">
+  <div class="pb-5 blocs-group">
+      {% for bloc in flexblock.blockGroup %}
+        <!-- Card featured -->
+        <div class="bloc reveal-soft {{bloc.bgColor.value}}">
+          <div class="container py-5">
+            <div class="row">
+              {% if bloc.image %}
+                <div class="col-12">
+                  {% if bloc.link %}
+                    <a class="dim " href="{{bloc.link.url}}"><img class="bloc-img img-fit pb-3" loading="lazy" src="{{ Image(bloc.image).src('small') }}" srcset="{{ Image(bloc.image).srcset }}" sizes="{{ Image(bloc.image).img_sizes }}" alt="{{Image(bloc.image).alt}}" /></a>
+                  {% else %}
+                    <img class="bloc-img img-fit pb-3" loading="lazy" src="{{ Image(bloc.image).src('small') }}" srcset="{{ Image(bloc.image).srcset }}" sizes="{{ Image(bloc.image).img_sizes }}" alt="{{Image(bloc.image).alt}}" />
+                  {% endif %}
+                </div>
+              {% endif %}
+              {% if bloc.title %}
+                <div class="col-12 col-lg-8 mr-auto">
+                  <h2 class="bloc-title pb-3"><a href="{{bloc.link.url}}"> {{bloc.title}}</a></h2>
+                </div>
+              {% endif %}
+              {% if bloc.texts %}
+              <div class="container">
+                <div class="row">
+                  {% for item in bloc.texts %}
+                    <div class="col wysiwyg-txt">
+                      {{item.text}}
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% endif %}
+              <div class="col-12">
+                <a class="bloc-link text-link dim" href="{{bloc.link.url}}">{{bloc.link.title}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+</section>

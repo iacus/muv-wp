@@ -1,0 +1,50 @@
+
+  {% for flexblock in post.meta('content') %}
+    {% if flexblock.acf_fc_layout == 'text' %}
+      {% include 'blocks/text.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'text-text' %}
+      {% include 'blocks/text-text.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'textx3' %}
+      {% include 'blocks/textx3.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'image-100' %}
+      {% include 'blocks/image100.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'imageFull' %}
+      {% include 'blocks/imageFull.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'cardsGroup' %}
+      {% include 'blocks/cards.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'cardsMarginGroup' %}
+      {% include 'blocks/cardsMargin.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'bigCardsGroup' %}
+      {% include 'blocks/bigCardsGroup.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'blockImageTextGroup' %}
+      {% include 'blocks/blockImageTextGroup.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'blockImageText3ColGroup' %}
+      {% include 'blocks/blockImageText3ColGroup.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'blockTextImageBgGroup' %}
+      {% include 'blocks/textImageBg.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'tabs2colGroup' %}
+      {% include 'blocks/tabs.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'tabsTableGroup' %}
+      {% include 'blocks/tabsTable.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'listaItemsMasonry' %}
+      {% include 'blocks/listaItemsMasonry.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'accordion' %}
+      {% include 'blocks/accordion.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'accordionSuper' %}
+      {% include 'blocks/accordionSuper.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'iframe' %}
+      {% include 'blocks/iframe.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'code' %}
+      {% include 'blocks/code.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'contact' %}
+      {% include 'blocks/contact.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'slider-arrows' %}
+      {% include 'blocks/sliderArrows.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'slider-gallery' %}
+      {% include 'blocks/sliderGallery.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'sliderHistory' %}
+      {% include 'blocks/sliderHistory.twig' %}
+    {% elseif flexblock.acf_fc_layout == 'columnsListImage' %}
+      {% include 'blocks/columnsListImage.twig' %}
+    {% endif %}
+  {% endfor %}

@@ -1,0 +1,83 @@
+  <div class="footer-guides">
+    <div class="footer-guide"></div>
+    <div class="footer-guide"></div>
+    <div class="footer-guide"></div>
+    <div class="footer-guide"></div>
+  </div>
+
+  <!-- Footer nav -->
+  <nav class="footer-nav nav-text">
+
+      {% for nav in menu.get_items %}
+      <ul class="nav-block col-6 col-md-3">
+
+        <li class="nav-title nav-title">
+          {% if nav.get_children %}
+            {{nav.title}}
+          {% else %}
+            <a href={{nav.url}} class="nav-link dim">{{nav.title}}</a>
+          {% endif %}
+        </li>
+
+        {% if nav.get_children %}
+          <ul class="nav-drop dim-items ">
+          {% for child in nav.get_children %}
+            <li class="nav-drop-item ">
+              <a class="nav-link" href="{{child.get_link}}" target="{{child.target}}">{{child.title}}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+      </ul>
+      {% endfor %}
+
+
+
+  </nav>
+
+  {# Bottom nav  #}
+  <nav class="footer-nav-bottom nav-text d-flex align-items-end">
+    <ul class="col dim-items">
+      {% for item in secNav.get_items %}
+        <li>
+          <a class="nav-link" href="{{item.url}}" target="{{item.target}}">{{item.title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  {# Footer social #}
+  <nav class="footer-social nav-text d-flex align-items-end">
+    <ul class="col dim-items">
+      {% for item in social.get_items %}
+        <li>
+          <a class="nav-link" href="{{item.url}}" target="{{item.target}}">{{item.title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <!-- Footer nav -->
+  <nav class="footer-legal text-legal d-flex">
+    <ul class="col dim-items d-flex flex-row">
+      <li class="nav-item {{nav.class}} px-2">
+        © {{"now"|date('Y')}}
+      </li>
+
+      {% for nav in legal.get_items %}
+        <li class="nav-item px-1 px-sm-2">
+          <a href={{nav.url}} class="nav-link {{nav.class}}" target="{{item.target}}">{{nav.title}}</a>
+        </li>
+      {% endfor %}
+
+    </ul>
+  </nav>
+
+
+  <div class="footer-logo d-flex ">
+    <div class="col">
+          {% include "partials/logo.twig" %}
+    </div>
+
+  </div>

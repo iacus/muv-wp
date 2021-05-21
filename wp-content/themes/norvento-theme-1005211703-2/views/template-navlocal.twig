@@ -1,0 +1,38 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <header class="page-header header--default page-header--ml reveal-soft">
+      <div class="d-flex flex-wrap no-gutters">
+        {# Title #}
+        <div class="header-title mb-3 col-md-6">
+          {% if post.fullTitle %}
+            <h1 class="display-03">{{post.fullTitle}}</h1>
+          {% else %}
+            <h1 class="display-03">{{post.title}}</h1>
+          {% endif %}
+
+        </div>
+
+        {# Description #}
+        {% if post.description %}
+          <div class="header-description mb-3 col-md-6">
+            <h2 class="display-05 bold">{{post.description}}</h2>
+          </div>
+        {% endif %}
+      </div>
+
+    {% if post.thumbnail %}
+      <div class="header-image mb-5">
+        <img loading="lazy" src="{{Image(post.thumbnail).src('small')}}" srcset="{{ Image(post.thumbnail).srcset }}" sizes="{{ Image(post.thumbnail).img_sizes }}" alt="{{Image(post.thumbnail).alt}}" />
+      </div>
+    {% endif %}
+
+
+  </header>
+
+  {# Flexible #}
+  {% include "partials/flexible.twig" %}
+
+
+
+{% endblock %}

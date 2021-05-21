@@ -1,0 +1,12 @@
+<div class="w-100 d-flex my-5 justify-content-between reveal-soft">
+  {% if post.prev %}
+      <a class="text-cat w-25  dim" href="{{ post.prev.link }}">< {{ post.prev.title }}</a>
+  {% else %}
+      <span class="w-25">&nbsp</span>
+  {% endif %}
+  {% if post.next %}
+      <a class="text-cat w-25 text-right  dim" href="{{ post.next.link }}">{{ post.next.title }} ></a>
+  {% else %}
+      <span class="w-25">&nbsp</span>
+  {% endif %}
+</div>

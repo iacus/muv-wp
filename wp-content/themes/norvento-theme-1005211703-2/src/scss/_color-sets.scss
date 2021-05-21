@@ -1,0 +1,111 @@
+@each $my-colors, $data in $my-colors-set {
+  .#{$my-colors} {
+
+    background-color: map-get($data, bg);
+    color: map-get($data, color);
+
+    .menu-trigger {
+      border-bottom: .05rem solid map-get($data, bg);
+      transition: background-color 200ms ease-out;
+
+      .no-touch &:hover{
+          background-color: map-get($data, hover);
+        }
+      .is-touch &.open {
+          background-color: map-get($data, hover);
+        }
+
+    }
+
+    a{
+      color: map-get($data, color);
+      border-bottom-color: map-get($data, color);
+    }
+
+    // Cards style
+    &.card {
+      color: map-get($data, color);
+      background-color: map-get($data, bg);
+
+      &:hover {
+        background-color: map-get($data, hover);
+      }
+
+      a {
+        border-bottom-color: map-get($data, color);
+      }
+
+      input {
+        border-bottom-color: map-get($data, color);
+        color: map-get($data, color);
+      }
+      form input[type=submit] {
+        background-color: map-get($data, color);
+        color: map-get($data, bg);
+      }
+    }
+
+    // En mobile las tarjetas blancas tienen el color de fondo para eliminar espacios
+    &.card-featured {
+      @include media-breakpoint-down (sm) {
+        background-color: map-get($data, sm);
+      }
+    }
+
+    //Cards style dark theme
+    .dark-theme &.card {
+      color: map-get($data, color);
+      background-color: map-get($data, bg);
+
+      &:hover {
+        opacity: .9;
+      }
+
+      a {
+        border-bottom-color: map-get($data, color);
+      }
+    }
+
+    // Tabs style
+    .tab-link {
+      color: map-get($data, color);
+    }
+
+    .tab-item {
+      border-color: map-get($data, color) !important;
+    }
+
+    .tab-item:hover {
+      border-color: map-get($data, color) !important;
+    }
+
+    .tab-item.active {
+      border-color: map-get($data, color) !important;
+    }
+
+    // Accordion
+    &.accordion .card {
+      border-color: map-get($data, color) !important;
+    }
+
+    // List block
+    & .list-content {
+      border-color: map-get($data, color) !important;
+    }
+
+    // Dark theme
+
+    // Selection styles
+    ::selection {
+       background: map-get($data, comp);
+       // color: map-get($data, bg);
+    }
+
+    ::-moz-selection {
+       background: map-get($data, comp);
+       // color: map-get($data, bg);
+    }
+
+
+  }
+}

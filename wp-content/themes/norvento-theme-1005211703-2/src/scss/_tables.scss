@@ -1,0 +1,14 @@
+.tableTec {
+  width: 100%;
+
+  tr {
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: $gray-600;
+  }
+
+  td {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}

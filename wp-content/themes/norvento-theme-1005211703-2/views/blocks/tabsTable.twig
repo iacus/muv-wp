@@ -1,0 +1,59 @@
+{# Layout tabsTableGroup #}
+<section class="flModule">
+  <div class="tabs-group tabsTec {{flexblock.bgColor.value}}">
+    <div class="container flModule-spacer">
+      {{flexblock.title}}
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          {# Tabs navigator #}
+          <ul class="nav nav-tabs py-3 dim-items" id="myTab" role="tablist">
+            {% for tab in flexblock.tabGroup %}
+              <li class="nav-item reveal-soft tab-item {% if loop.index == 1 %}active{% endif %}">
+                <p class="">
+                  <a class="nav-link tab-link text-03" data-toggle="tab" href="#tab-{{loop.index}}" role="tab" aria-controls="{{tab.title}}" aria-selected="true">{{tab.title}}</a>
+                </p>
+              </li>
+            {% endfor %}
+          </ul>
+
+          {# Tabs content #}
+          <div class="tab-content reveal-soft" id="myTabContent">
+            {% for tab in flexblock.tabGroup %}
+              <div class="tab-pane {% if loop.index == 1 %}active{% endif %}" id="tab-{{loop.index}}" role="tabpanel" aria-labelledby="{{tab.title}}-tab">
+                  <div class="row no-gutters pt-3">
+                    {% if tab.table %}
+                      <div class="col-12">
+                        <table class="tableTec text-table" border="0">
+                          <tbody>
+                            {% for tbody in tab.table %}
+                              {% for row in tbody %}
+                                <tr>
+                                {% for col in row %}
+                                  {% if col.c %}
+                                    <td> {{col.c}}</td>
+                                  {% else %}
+                                    <td> &nbsp; </td>
+                                  {% endif %}
+                                {% endfor %}
+                                </tr>
+                              {% endfor %}
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
+                    {% endif %}
+                    {% if tab.image %}
+                      <div class="col-12 col-lg-8 col-xxl-7 mx-auto">
+                        <img loading="lazy" src="{{Image(tab.image).src('small')}}" sizes="{{ Image(tab.image).img_sizes }}" alt="{{Image(tab.image).alt}}" />
+                      </div>
+                    {% endif %}
+                  </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

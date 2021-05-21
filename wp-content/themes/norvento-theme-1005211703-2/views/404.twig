@@ -1,0 +1,22 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <header class="page-header header--default page-header--ml reveal-soft">
+      <div class="d-flex flex-wrap no-gutters">
+        {# Title #}
+        <div class="header-title mb-3 col-md-6">
+					<h1 class="display-03">404 - {{wp_title}}</h1>
+        </div>
+				<pre>{{dump()}}</pre>
+
+      </div>
+
+    {% if options.image404 %}
+      <div class="header-image mb-5">
+        <img loading="lazy" src="{{ Image(options.image404).src('small') }}" srcset="{{ Image(options.image404).srcset }}"  sizes="{{ Image(options.image404).img_sizes }}" alt="{{Image(options.image404).alt}}">
+      </div>
+    {% endif %}
+
+  </header>
+
+{% endblock %}

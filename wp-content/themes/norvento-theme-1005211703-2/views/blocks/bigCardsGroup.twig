@@ -1,0 +1,61 @@
+<section class="flModule">
+  <div class="container pb-5 big-cards-group">
+    {% if flexblock.title %}
+      <div class="row reveal-soft no-gutters">
+        <div class="col-8">
+          <h2 class="text-01 pb-4 ">{{flexblock.title}}</h2>
+        </div>
+      </div>
+    {% endif %}
+    <div class="row no-gutters">
+      {% for card in flexblock.cardsGroup %}
+        <!-- Card featured -->
+        <div class="card reveal-soft card-featured {{card.bgColor.value}}">
+          <div class="row flex-wrap no-gutters">
+            <div class="col-md-6">
+              <div class="card-body">
+                {% if card.title %}
+                  {% if card.links[0].link.url %}
+                    <h2 class="card-title"><a href="{{card.links[0].link.url}}" target="{{card.links[0].link.target}}"> {{card.title}}</a></h2>
+                  {% else %}
+                    <h2 class="card-title">{{card.title}}</h2>
+                  {% endif %}
+                {% endif %}
+                <div class="{% if card.title %}bottom{% endif %}">
+                  <div class="card-text wysiwyg-txt">
+                    {{card.text}}
+                  </div>
+                  {% if card.form %}
+                    <div class="card-form">
+                      {{ function('do_shortcode', card.form) }}
+                    </div>
+                  {% endif %}
+                  {% if card.links %}
+                    <div class="bottom card-links">
+                      {% for item in card.links %}
+                        <a class="card-link text-link dim " href="{{item.link.url}}" target="{{item.link.target}}">{{item.link.title}}</a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-img-wrapper">
+                {% if card.links[0].link.url %}
+                  <a href="{{card.links[0].link.url}}" target="{{card.links[0].link.target}}">
+                    <img class="card-img img-fit" loading="lazy" src="{{ Image(card.image).src('small') }}" srcset="{{ Image(card.image).srcset }}" sizes="{{ Image(card.image).img_sizes }}" alt="{{Image(card.image).alt}}" />
+                  </a>
+                {% else %}
+                  <img class="card-img img-fit" loading="lazy" src="{{ Image(card.image).src('small') }}" srcset="{{ Image(card.image).srcset }}" sizes="{{ Image(card.image).img_sizes }}" alt="{{Image(card.image).alt}}" />
+                {% endif %}
+
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

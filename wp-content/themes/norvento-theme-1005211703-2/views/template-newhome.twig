@@ -1,0 +1,47 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+  <header class="page-header page-header--b page-header--ml">
+
+      <div class="header-image">
+
+        <!-- Slider main container -->
+        <div class="slider-full swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              {% for slide in post.meta('slider') %}
+                <div class="swiper-slide">
+                  <img class="slider-image img-fit pb-3" loading="lazy" src="{{ Image(slide.image).src('small')|towebp }}" srcset="{{ Image(slide.image).srcset }}" sizes="{{ Image(slide.image).img_sizes }}" alt="{{Image(slide.image).alt}}" />
+                  <div class="swiper-lazy-preloader-white"></div>
+                  <div class="slider-info fluidPl d-flex row flex-column no-gutters" data-swiper-parallax="-300">
+                      <div class="reveal-soft-inner col-10 col-sm-9 col-md-6 col-lg-5" >
+                        {{slide.text}}
+
+                        {% if slide.link %}
+                          <a class="slider-link dim text-link stretch-link" href="{{slide.link.url}}" target="{{slide.link.target}}">{{slide.link.title}}</a>
+                        {% endif %}
+                      </div>
+                  </div>
+                </div>
+
+              {% endfor %}
+          </div>
+
+          <div class="swiper-controls">
+            <div class="swiper-button-prev dim"></div>
+            <div class="swiper-button-next dim"></div>
+          </div>
+
+        </div>
+      </div>
+
+
+  </header>
+
+  {# Flexible #}
+  {% include "partials/flexible.twig" %}
+
+
+{% endblock %}

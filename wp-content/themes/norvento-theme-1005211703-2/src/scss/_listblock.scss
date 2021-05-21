@@ -1,0 +1,20 @@
+.list-group {
+  .col {
+    flex-basis: 40vw;
+    margin-bottom: $spacer;
+
+    @include media-breakpoint-up (sm) {
+      flex-basis: 20vw;
+      margin-bottom: $spacer * 2;
+    }
+  }
+  .list-content {
+    border-top: 1px dotted fade-out($white,.9);
+    height: 100%;
+    padding-top: $spacer / 2;
+    padding-bottom: $spacer / 2;
+  }
+  .list-img {
+    width: 100%;
+  }
+}

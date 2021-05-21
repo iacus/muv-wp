@@ -1,0 +1,19 @@
+//Home
+
+  .home-header {
+
+    .header-title {
+
+      svg {
+        max-width: $brand-max-size;
+      }
+    }
+
+    .header-description {
+      margin-top: $header-description-top-margin;
+
+      @include media-breakpoint-up (md) {
+        margin-top: $header-description-top-margin-md;
+      }
+    }
+  }

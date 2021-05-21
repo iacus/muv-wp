@@ -1,0 +1,128 @@
+@mixin fluidMl {
+  margin-left: $spacer !important;
+
+  @include media-breakpoint-up (md) {
+    margin-left: 9.75vw !important
+  }
+
+  @include media-breakpoint-up (lg) {
+    margin-left: 9.75vw !important
+  }
+
+  @include media-breakpoint-up (xl) {
+    margin-left: 9.75vw !important
+  }
+
+  @include media-breakpoint-up (xxxl) {
+    margin-left: 9.75vw !important
+  }
+}
+
+@mixin fluidPl {
+  padding-left: $spacer !important;
+
+  @include media-breakpoint-up (md) {
+    padding-left: 9.75vw !important
+  }
+
+  @include media-breakpoint-up (lg) {
+    padding-left: 9.75vw !important
+  }
+
+  @include media-breakpoint-up (xl) {
+    padding-left: 9.75vw !important
+  }
+
+  @include media-breakpoint-up (xxxl) {
+    padding-left: 9.75vw !important
+  }
+}
+
+.fluidPl {
+  @include fluidPl;
+}
+
+.fluidMl {
+  @include fluidMl;
+}
+
+.g-m {
+  margin-left: $global-margin;
+  margin-right: $global-margin;
+}
+
+.g-ml {
+  margin-left: $global-margin;
+}
+
+.g-mr {
+  margin-right: $global-margin;
+}
+
+
+.gl-p {
+  padding: 2rem;
+}
+.gl-p-l {
+  padding-left: $leftbar-width;
+}
+
+
+// Test
+.bgWhite .py-5 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+// .bgWhite .mb-5 {
+//   margin-bottom: 0 !important;
+// }
+
+// .dark-theme .bgWhite .py-5 {
+//   padding-top: 3rem !important;
+//   padding-bottom: 3rem !important;
+// }
+
+// .dark-theme .bgBlue .py-5 {
+//   padding-top: 0 !important;
+//   padding-bottom: 0 !important;
+// }
+
+// .dark-theme .py-5 {
+//   padding-bottom: 0 !important;
+// }
+
+.flModule-spacer {
+  padding-bottom: $spacer * 2;
+
+  @include media-breakpoint-up (md) {
+    padding-bottom: $spacer * 3;
+  }
+
+  @include media-breakpoint-up (xl) {
+    padding-bottom: $spacer * 4;
+  }
+
+  .bgLightBlue &,
+  .bgRed &,
+  .bgBlue & {
+    padding-top: $spacer * 2;
+    margin-bottom: $spacer * 2;
+
+    @include media-breakpoint-up (md) {
+      padding-top: $spacer * 3;
+      margin-bottom: $spacer * 3;
+    }
+
+    @include media-breakpoint-up (xl) {
+      padding-top: $spacer * 4;
+      margin-bottom: $spacer * 4;
+    }
+  }
+
+  .dark-theme .bgBlue & {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+}

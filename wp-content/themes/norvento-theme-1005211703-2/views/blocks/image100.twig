@@ -1,0 +1,17 @@
+<section class="flModule {{flexblock.bgColor.value}}">
+  <div class="container reveal-soft bloc-image flModule-spacer">
+    <div class="row">
+      <div class="col-12">
+        {% if Image(flexblock.image).id_video %}
+            <div class="" data-plyr-provider="{{ Image(flexblock.image).source }}" data-plyr-embed-id="{{ Image(flexblock.image).id_video }}"></div>
+        {% else %}
+          <picture >
+            <img loading="lazy" src="{{Image(flexblock.image).src('small')}}" srcset="{{ Image(flexblock.image).srcset }}" sizes="{{ Image(flexblock.image).img_sizes }}" alt="{{Image(flexblock.image).alt}}" />
+          </picture>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+
+</section>

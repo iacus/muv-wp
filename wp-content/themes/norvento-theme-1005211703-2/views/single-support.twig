@@ -1,0 +1,49 @@
+{% extends "base.twig" %}
+
+{% block content %}
+		<header class="page-header ">
+			<div class="container reveal-soft">
+				<div class="row">
+					<div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7">
+					{# Title #}
+					<div class="header-title mb-2">
+
+						<h1 class="display-03 pb-3">{{post.title}}</h1>
+
+					</div>
+
+					{% if post.post_excerpt %}
+						<h2 class="text-01 pb-3">{{post.post_excerpt}}</h2>
+					{% endif %}
+
+					{% if post.thumbnail %}
+						<img loading="lazy" src="{{Image(post.thumbnail).src('small')}}" srcset="{{ Image(post.thumbnail).srcset }}" sizes="{{ Image(post.thumbnail).img_sizes }}" alt="{{Image(post.thumbnail).alt}}" />
+					{% endif %}
+
+					<div class="post-content reveal-soft guttemberg-txt py-3">
+						{{post.content}}
+					</div>
+
+					{% if post.meta('logos') %}
+						<div class="d-flex bgLightBlue p-3 mb-4">
+						{% for item in post.meta('logos') %}
+							<a class="px-2" href="{{item.link.url}}" target="{{item.link.target}}"><img class=""src="{{Image(item.logo).src}}" alt=""></a>
+						{% endfor %}
+						</div>
+					{% endif %}
+					{% include '/partials/prevnext.twig' %}
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+		</header>
+
+
+	{# Flexible #}
+	{% include "partials/flexible.twig" %}
+
+{% endblock %}

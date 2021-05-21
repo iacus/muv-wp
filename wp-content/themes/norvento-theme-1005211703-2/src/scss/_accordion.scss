@@ -1,0 +1,114 @@
+.accordion {
+
+  .card {
+    border-top: 1px solid $gray-200;
+    border-bottom: 1px solid $gray-200;
+    margin-top: -1px;
+
+    &:first-child {
+      border-top: none;
+    }
+
+    .card-subtitle {
+        display: table;
+
+    }
+
+    .card-head {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    .accordion-title {
+      height: 100%;
+      width: 100%;
+      margin-right: -2rem;
+      padding-right: 2rem;
+    }
+
+    .accordion-drop--plus {
+      width: 1.25rem;
+      height: 1.25rem;
+      background-color: fade-out($blue,.9);
+      border-radius: 100%;
+      transform: rotate(45deg);
+    }
+
+    .collapsed + .accordion-drop--plus{
+      transform: rotate(0deg);
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+}
+
+.collapse {
+  @include transition;
+}
+
+.accordion--super {
+  .card {
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    margin-top: -2px;
+    border-color: $blue;
+
+  }
+
+  .card:hover + .left-image {
+    display: block;
+  }
+
+  .left-image {
+    position: absolute;
+    // opacity: 0;
+    display: none;
+  }
+
+  .card-head {
+
+  }
+
+  .collapsed {
+    width: 100%;
+  }
+
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .accordion-drop--arrow {
+    transform: rotate(180deg);
+  }
+
+  .collapsed + .accordion-drop--arrow{
+    transform: rotate(0deg);
+  }
+
+}
+
+
+
+.accordion-drop {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include transition;
+  transform-origin: center;
+  transition-delay: 200ms;
+  transition-duration: 500ms;
+  pointer-events: none;
+}

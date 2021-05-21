@@ -1,0 +1,54 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <header class="page-header reveal-soft header--default">
+    <div class="container">
+      <div class="row">
+      {# Title #}
+      <div class="header-title mb-3 col-md-6">
+        {% if post.fullTitle %}
+          <h1 class="display-03">{{post.fullTitle}}</h1>
+        {% else %}
+          <h1 class="display-03">{{post.title}}</h1>
+        {% endif %}
+      </div>
+
+      {# Description #}
+      {% if post.description %}
+        <div class="header-description mb-3 col-md-6">
+          <h2 class="display-05 bold">{{post.description}}</h2>
+        </div>
+      {% endif %}
+
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container reveal-soft py-5">
+      <div class="row no-gutters">
+        {% for post in posts %}
+          {% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="pagination mt-4">
+            {% if posts.pagination %}
+              {% for item in posts.pagination.pages %}
+                <li class="page-item {{item.current ? 'active'}}">
+                  <a href="{{item.link}}" class="page-link {{item.class}}">{{item.title}}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {# Flexible #}
+  {% include "partials/flexible.twig" %}
+
+
+
+{% endblock %}

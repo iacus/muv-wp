@@ -1,0 +1,85 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <header class="page-header header--default">
+    <div class="container">
+      <div class="row">
+        {# Title #}
+        <div class="header-title reveal-soft mb-4 col-md-6">
+          {% if post.fullTitle %}
+            <h1 class="display-03">{{post.fullTitle}}</h1>
+          {% else %}
+            <h1 class="display-03">{{post.title}}</h1>
+          {% endif %}
+        </div>
+
+        {# Description #}
+        {% if post.description %}
+          <div class="header-description mb-3 col-md-6">
+            <h2 class="display-05 bold">{{post.description}}</h2>
+          </div>
+        {% endif %}
+
+
+
+      </div>
+      <div class="row reveal-soft">
+        <div class="mb-3 col-md-6 wysiwyg-txt">
+          {% if post.meta('text') %}
+            {{post.meta('text')}}
+          {% endif %}
+        </div>
+        <div class="mb-3 col-md-6">
+        {% if post.meta('pressGroup') %}
+          <ul class="list-line dim-items">
+            {% for item in post.meta('pressGroup') %}
+              <li class="">
+                <a class="text-03 bold d-flex" href="{{item.pressItem.url}}" target="_blank">{{item.pressItem.title}}
+                  <span class="ml-auto px-2">↓</span>
+                </a>
+              </li>
+            {% endfor %}
+            {% for item in post.meta('linksGroup') %}
+              <li class="">
+                <a class="text-03 bold d-flex" href="{{item.pressItem.url}}" target="_blank">{{item.pressItem.title}}
+                  <span class="ml-auto px-2">↓</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container reveal-soft mb-5 ">
+      <div class="row no-gutters py-5">
+        {% for post in pressNotes %}
+          {% include ['tease-press.twig', 'tease.twig'] %}
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="pagination">
+            {% if pressNotes.pagination %}
+              {% for item in pressNotes.pagination.pages %}
+                <li class="page-item {{item.current ? 'active'}}">
+                  <a href="{{item.link}}" class="page-link {{item.class}}">{{item.title}}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  {# Flexible #}
+  {% include "partials/flexible.twig" %}
+
+
+{% endblock %}

@@ -1,0 +1,13 @@
+.features-bloc {
+  min-height: 600px;
+}
+
+.features-image {
+  height: 100%;
+
+  img {
+    object-fit: cover;
+    min-height: 100%;
+    width: 100%;
+  }
+}

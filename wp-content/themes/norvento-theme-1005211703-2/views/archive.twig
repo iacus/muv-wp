@@ -1,0 +1,74 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  {# <pre>{{dump()}}</pre> #}
+  <header class="page-header reveal-soft header--default">
+    <div class="container">
+      <div class="row">
+
+        {# Title #}
+        <div class="header-title mb-4 col-md-6">
+          {% if fullTitle %}
+            <h1 class="display-03">{{fullTitle}}</h1>
+          {% else %}
+            <h1 class="display-03">{{title}}</h1>
+          {% endif %}
+        </div>
+
+        {# Description #}
+        {% if description %}
+          <div class="header-description mb-3 col-md-6">
+            <h2 class="display-05 bold">{{description}}</h2>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </header>
+
+  <section class="reveal-soft">
+    <div class="container mb-5 ">
+      <div class="row medium-gutters py-5">
+
+
+      <div class="col-md-8 col-xl-9">
+        <div class="container px-0">
+          <div class="row no-gutters">
+            {% for post in posts %}
+              {% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}
+            {% endfor %}
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="pagination mt-3">
+                {% if posts.pagination %}
+                  {% for item in posts.pagination.pages %}
+                    <li class="page-item {{item.current ? 'active'}}">
+                      <a href="{{item.link}}" class="page-link {{item.class}}">{{item.title}}</a>
+                    </li>
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-4 col-xl-3">
+        {% include 'categories.twig' %}
+      <div class="py-4">
+        <a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/NorventoEnerxia?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  {# Flexible #}
+  {% include "partials/flexible.twig" %}
+
+
+{% endblock %}

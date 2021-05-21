@@ -1,0 +1,65 @@
+form p {
+  margin-bottom: 0;
+}
+
+form > p,
+form label {
+      width: 100%;
+}
+
+.fullWidthField *{
+  width: 100%;
+}
+
+
+form p input,
+form p textarea {
+  border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid $blue;
+    color: $blue;
+}
+
+form p input {
+  height: 1.5rem;
+}
+
+form p textarea {
+  height: 5rem;
+}
+
+form input[type=submit] {
+    border:0 none;
+    height: auto;
+    width: auto;
+    @include button;
+
+}
+
+.wpcf7 .ajax-loader {
+  top: 0rem;
+  position: absolute;
+  right: 4rem;
+}
+
+.legalField {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  font-size: .6rem !important;
+
+  label {
+    width: auto;
+  }
+  input {
+    height: .8rem;
+  }
+  a {
+    text-decoration: underline;
+  }
+
+  .wpcf7-list-item {
+    margin-left: 0;
+  }
+}

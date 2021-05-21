@@ -1,0 +1,44 @@
+{# blockTextImageBgGroup #}
+<section class="flModule">
+  <div class="blocs-bgimage-group flModule-spacer">
+      {% for bloc in flexblock.blockGroup %}
+        <!-- Card featured -->
+        <div class="bloc-bgimage {{bloc.bgColor.value}}">
+
+          <div class="bloc-bgimage-content container">
+            <div class="row reveal-soft position-relative">
+              <div class="col-md-8 mx-auto">
+                {% if bloc.subtitle %}
+                  <h3 class="bloc-bgimage-subtitle text-cat pb-2"> {{bloc.subtitle}}</h2>
+                {% endif %}
+                {% if bloc.title %}
+                  <h2 class="bloc-bgimage-title pb-3"> {{bloc.title}}</h2>
+                {% endif %}
+                {% if bloc.text %}
+                  <div class="bloc-bgimage-text wysiwyg-txt">
+                    {{bloc.text}}
+                  </div>
+                {% endif %}
+                {% if bloc.link %}
+                  <a class="bloc-bgimage-link text-link stretched-link dim" href="{{bloc.link.url}}">{{bloc.link.title}}</a>
+                {% endif %}
+              </div>
+
+            </div>
+          </div>
+
+          {% if bloc.image %}
+            <div class="bloc-bgimage-img">
+                {% if bloc.link %}
+                  <a class=" " href="{{bloc.link.url}}"><img class="img-fit" loading="lazy" src="{{ Image(bloc.image).src('small') }}" srcset="{{ Image(bloc.image).srcset }}" sizes="{{ Image(bloc.image).img_sizes }}" alt="{{Image(bloc.image).alt}}" /></a>
+                {% else %}
+                  <img class="img-fit" loading="lazy" src="{{ Image(bloc.image).src('small') }}" srcset="{{ Image(bloc.image).srcset }}" sizes="{{ Image(bloc.image).img_sizes }}" alt="{{Image(bloc.image).alt}}" />
+                {% endif %}
+            </div>
+          {% endif %}
+
+
+        </div>
+      {% endfor %}
+  </div>
+</section>

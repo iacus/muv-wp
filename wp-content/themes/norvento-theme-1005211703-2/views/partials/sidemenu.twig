@@ -1,0 +1,66 @@
+<!-- Side menu -->
+<nav class="side-menu gradient hidden vh100">
+  <div class="nav-lang nav-text">
+      {{ function('do_shortcode', '[wpml_language_selector_widget]') }}
+  </div>
+
+  <div class="cross crossMenu">
+    {% include 'partials/cross.twig' %}
+  </div>
+   <!-- Menu nav -->
+   <ul class="nav-menu">
+     {% for nav in menu.get_items %}
+
+       {% if nav.get_children %}
+         {# Nav item #}
+         <li class="nav-item">
+          <a data-menu="{{nav.id}}" class="nav-link dim nav-link--drop nav-link--sidebar text-white display-05 bold {{nav.classes | join(' ')}}">{{nav.title}}</a>
+
+           {# Nav innernav drop #}
+           <ul id="{{nav.id}}" class="nav-menu-drop nav-drop dim-items {{nav.classes | join(' ')}}">
+
+           {% for child in nav.get_children %}
+             <li class="nav-drop-item ">
+               <a class="nav-link sidebar-nav-text {{child.classes | join(' ')}}" href="{{child.get_link}}">{{child.title}}</a>
+             </li>
+           {% endfor %}
+           </ul>
+
+         </li>
+
+       {% else %}
+         <li class="nav-item">
+           <a href={{nav.url}} class="{{nav.classes | join(' ')}} nav-link nav-link--sidebar nav-link--drop text-white dim display-05 bold">{{nav.title}}</a>
+         </li>
+       {% endif %}
+
+
+     {% endfor %}
+   </ul>
+   <div class="side-bottom">
+     {# Bottom nav  #}
+     <nav class="side-nav-bottom nav-text d-flex align-items-end">
+       <ul class="col dim-items px-0">
+         {% for item in secNav.get_items %}
+           <li>
+             <a class="nav-link nav-text" href="{{item.url}}" target="{{item.target}}">{{item.title}}</a>
+           </li>
+         {% endfor %}
+       </ul>
+     </nav>
+
+     {# Footer social #}
+     <nav class="side-nav-social nav-text d-flex align-items-end">
+       <ul class="col dim-items px-0">
+         {% for item in social.get_items %}
+           <li>
+             <a class="nav-link nav-text" href="{{item.url}}" target="{{item.target}}">{{item.title}}</a>
+           </li>
+         {% endfor %}
+       </ul>
+     </nav>
+   </div>
+
+
+
+</nav>

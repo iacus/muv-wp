@@ -1,0 +1,91 @@
+.nav-tabs {
+  justify-content: space-around;
+  border-bottom: none;
+  flex-direction: column;
+
+  @include media-breakpoint-up (md) {
+    flex-direction: row;
+  }
+
+  .tab-item {
+    flex: 1;
+    text-align: center;
+    border-bottom: 2.5px solid $white;
+
+    @include media-breakpoint-up (md) {
+      border-bottom: none;
+      margin-left: $spacer;
+      margin-right: $spacer;
+    }
+
+    p {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .tab-item > * {
+    height: 100%;
+  }
+
+  .tab-item.active {
+
+    @include media-breakpoint-up (md) {
+      border-bottom: 2.5px solid $white;
+    }
+  }
+
+  .tab-item.active:hover {
+    // border-bottom: 2.5px solid $white;
+  }
+
+  .tab-item:hover {
+
+    @include media-breakpoint-up (md) {
+      border-bottom: 2.5px solid $white;
+    }
+  }
+
+
+
+  .tab-link {
+    padding-top: $spacer / 2;
+    padding-bottom: $spacer / 2;
+    height: 100%;
+    opacity: .5;
+
+    @include media-breakpoint-up (md) {
+      opacity: 1;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .tab-item.active .tab-link {
+    opacity: 1;
+  }
+
+}
+
+	.tab-content {
+		width: 100%;
+
+		> .tab-pane {
+			display: none;
+
+			&.active {
+				display: block;
+			}
+		}
+
+		> .active {
+			display: block;
+		}
+	}
+
+
+
+  .tabsTec li.nav-item.tab-item {
+      border-bottom-width: 1px !important;
+  }

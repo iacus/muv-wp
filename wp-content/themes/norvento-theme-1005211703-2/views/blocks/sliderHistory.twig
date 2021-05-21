@@ -1,0 +1,50 @@
+<!-- Slider Gallery-->
+<section class="flModule">
+<div class=" mb-5 slider {{flexblock.bgColor.value}}">
+  <div class="container py-5">
+    <div class="reveal-soft">
+      {{flexblock.title}}
+    </div>
+    <div class="row reveal-soft no-gutters ">
+      <div class="col-12">
+        <!-- Slider main container -->
+        <div class="slider-history pt-5 swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              {% for slide in flexblock.slides %}
+            <div class="swiper-slide {% if slide.text %}swiper-slide--text {% endif %}">
+
+                  {% if slide.text %}
+                    <div class="slider-date text-04">
+                      <div class="slider-point slider-point--big">
+                        <p>{{slide.title}}</p>
+                      </div>
+                    </div>
+
+                    <div class="slider-info d-flex no-gutters">
+                      <div class="col-12 pt-1 text-04">
+                        <p>{{slide.text}}</p>
+                      </div>
+                    </div>
+                  {% else %}
+                    <div class="slider-date text-04">
+                      <div class="slider-point">
+                        {{slide.title}}
+                      </div>
+                    </div>
+                  {% endif %}
+
+
+                </div>
+
+              {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>

@@ -1,0 +1,126 @@
+// Template A
+
+.single-productos {
+  // background-color: fade-out($blue,.9);
+
+  .ly-main {
+    // background-color: fade-out($blue,.9);
+  }
+
+  .sidebar-top-spacer {
+    background-color: transparent;
+  }
+
+  .sidebar-top-spacer,
+  .wrapper {
+    // background-color: fade-out($blue,.9);
+  }
+
+  .wrapper::before {
+    position: absolute;
+    content: "";
+    background-color: fade-out($blue,.9);
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    height: calc(120vh + 3rem);
+    min-height: calc(80vw + 3rem);
+    max-height: calc(800px + 3rem);
+
+    @include media-breakpoint-up (sm) {
+      max-height: calc(700px + 3rem);
+    }
+    }
+
+}
+
+
+
+.page-header--a {
+  // margin-left: $global-left-margin;
+  display: flex;
+  flex-wrap: wrap;
+  // background-color: red;
+  padding-top: 0;
+  min-height: 80vw;
+  max-height: 800px;
+  position: relative;
+  overflow: hidden;
+  // height: 120vh;
+
+  @include media-breakpoint-up (sm) {
+    height: 120vh;
+    max-height: 700px;
+  }
+
+
+
+  .header-title {
+    padding-top: $header-top-margin;
+    position: absolute;
+    @include media-breakpoint-up (sm) {
+      width: 100%;
+      position: relative;
+    }
+
+    > * {
+      line-height: .85;
+    }
+  }
+
+  .header-image {
+    z-index: 5;
+    text-align: right;
+    margin-left: auto;
+    height: 500px;
+
+    @include media-breakpoint-up (sm) {
+      height: auto;
+      pointer-events: none;
+      margin-right: 0rem;
+      bottom: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      overflow: visible;
+      width: 70vw;
+
+      @include media-breakpoint-up (sm) {
+        width: 60vw;
+      }
+      @include media-breakpoint-up (md) {
+        width: 50vw;
+      }
+    }
+  }
+
+  .header-description {
+    background-color: $blue;
+    color: $white;
+    width: 100%;
+    height: fit-content;
+
+    @include media-breakpoint-up (sm) {
+      position: absolute;
+      bottom: 0;
+      min-height: $spacer * 12;
+    }
+  }
+
+  .header-description-inner {
+    width: 100%;
+    padding: 1.35rem;
+
+    @include media-breakpoint-up (sm) {
+      width: 50%;
+    }
+  }
+
+}

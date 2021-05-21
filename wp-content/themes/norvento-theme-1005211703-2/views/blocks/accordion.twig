@@ -1,0 +1,31 @@
+{# Accordion #}
+<section class="flModule">
+  <div class="container mb-5">
+    <p class="display-05 bold reveal-soft">{{flexblock.title}}</p>
+    <div class="accordion reveal-soft" id="accordionExample">
+      {% for item in flexblock.accordionGroup %}
+        <div class="card">
+          <div class="card-head " id="heading-{{loop.index}}">
+            <h2 class="text-02 py-3 collapsed accordion-title" data-toggle="collapse" data-target="#collapse-{{loop.index}}" aria-expanded="true" aria-controls="collapse-{{loop.index}}">
+                {{item.title}}
+            </h2>
+            <div class="accordion-drop accordion-drop--plus my-3">+</div>
+          </div>
+
+          <div id="collapse-{{loop.index}}" class="collapse bgLightBlue" aria-labelledby="heading-{{loop.index}}" data-parent="#accordionExample">
+            <div class="card-body pb-1">
+              <div class="row text-03">
+                <div class="col-md-6 wysiwyg-txt">
+                  {{item.text1}}
+                </div>
+                <div class="col-md-6 wysiwyg-txt">
+                  {{item.text2}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

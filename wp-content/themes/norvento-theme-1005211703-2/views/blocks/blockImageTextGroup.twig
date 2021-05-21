@@ -1,0 +1,43 @@
+<section class="flModule">
+  <div class="pb-5 blocs-group">
+      {% for bloc in flexblock.blockGroup %}
+        <!-- Card featured -->
+        <div class="bloc {{bloc.bgColor.value}}">
+          <div class="container reveal-soft py-5">
+            <div class="row">
+              {% if bloc.image %}
+                <div class="col-12">
+                  {% if Image(bloc.image).id_video %}
+                    <div class="pb-4">
+                      <div class="" data-plyr-provider="{{ Image(bloc.image).source }}" data-plyr-embed-id="{{ Image(bloc.image).id_video }}"></div>
+                    </div>
+                  {% else %}
+                    {% if bloc.link %}
+                      <a class="dim " href="{{bloc.link.url}}"><img class="bloc-img img-fit pb-4" loading="lazy" src="{{ Image(bloc.image).src('small') }}" srcset="{{ Image(bloc.image).srcset }}" sizes="{{ Image(bloc.image).img_sizes }}" alt="{{Image(bloc.image).alt}}" /></a>
+                    {% else %}
+                      <img class="bloc-img img-fit pb-4" loading="lazy" src="{{ Image(bloc.image).src('small') }}" srcset="{{ Image(bloc.image).srcset }}" sizes="{{ Image(bloc.image).img_sizes }}" alt="{{Image(bloc.image).alt}}" />
+                    {% endif %}
+                  {% endif %}
+
+                </div>
+              {% endif %}
+              {% if bloc.title %}
+                <div class="col-12 col-lg-8 mr-auto">
+                  <h2 class="bloc-title pb-3"><a href="{{bloc.link.url}}"> {{bloc.title}}</a></h2>
+                </div>
+              {% endif %}
+              <div class="col-md-6 wysiwyg-txt">
+                {{bloc.text1}}
+              </div>
+              <div class="col-md-6 wysiwyg-txt">
+                {{bloc.text2}}
+              </div>
+              <div class="col-12">
+                <a class="bloc-link text-link dim" href="{{bloc.link.url}}" target="{{bloc.link.target}}">{{bloc.link.title}}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
+</section>

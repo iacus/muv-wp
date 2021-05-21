@@ -1,0 +1,51 @@
+{% block html_head %}
+	{% include 'html-header.twig' %}
+	{% block head %}
+	{% endblock %}
+	</head>
+{% endblock %}
+
+	<body class="text-02 {{body_class}} {{customClass}}" data-color="{{post.gradientColor}}" data-template="base.twig">
+
+	<div class="ly-wrapper">
+		<header class="">
+			{% block header %}
+				{% include 'partials/nav.twig' %}
+			{% endblock %}
+		</header>
+
+		<aside class="ly-sidebar">
+			{% block sidebar %}
+				{% include 'partials/sidebar.twig'%}
+			{% endblock %}
+		</aside>
+
+		{# <div class="loader">
+
+		</div> #}
+
+		<main role="main" class="ly-main">
+			<div class="wrapper">
+			{% block content %}
+				Sorry, no content
+			{% endblock %}
+			</div>
+
+		</main>
+
+		<footer class="ly-footer footer gradient">
+			{% block footer %}
+					{% include 'partials/footer.twig' %}
+			{% endblock %}
+		</footer>
+	</div>
+
+	{# Includes #}
+	{% include 'partials/sidemenu.twig'%}
+	
+		{{ function('wp_footer') }}
+
+
+
+	</body>
+</html>

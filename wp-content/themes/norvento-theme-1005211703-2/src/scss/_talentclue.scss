@@ -1,0 +1,49 @@
+body {
+  #tc-jswidget .tc-widget__wrapper {
+      padding: 0;
+      width: 100%;
+  }
+
+  .tc-total-jobs {
+    display: none;
+  }
+
+  .tc-job-row {
+      background: transparent;
+      box-shadow: none;
+      padding-left: 0;
+      padding-right: 0;
+      border-bottom: 1px solid $blue;
+      margin: 0;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+  }
+
+  .tc-job-cell {
+      padding: 0;
+  }
+
+  #tc-jswidget * {
+      font-family: 'Circular';
+      color: $blue !important;
+  }
+
+  .tc-job-position {
+      text-overflow: unset;
+      overflow: visible;
+  }
+
+  .tc-job-list .tc-job-row:hover {
+      box-shadow: none;
+      opacity: .5;
+  }
+
+  .tc-job-cell a.tc-job-link {
+      font-size: inherit;
+  }
+
+
+  .tc-job-box2sub1 {
+      display: none;
+  }
+}

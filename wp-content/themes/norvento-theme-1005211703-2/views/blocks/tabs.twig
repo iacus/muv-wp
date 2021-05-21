@@ -1,0 +1,42 @@
+{# Layout tabs2colGroup #}
+<section class="flModule">
+  <div class="mb-5 tabs-group {{flexblock.bgColor.value}}">
+    <div class="container py-5">
+      <div class="reveal-soft">
+        {{flexblock.title}}
+      </div>
+
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          {# Tabs navigator #}
+          <ul class="nav nav-tabs py-3 dim-items" id="myTab" role="tablist">
+            {% for tab in flexblock.tabGroup %}
+              <li class="nav-item reveal-soft tab-item {% if loop.index == 1 %}active{% endif %}">
+                <h2 class="">
+                  <a class="nav-link tab-link text-01 bold" data-toggle="tab" href="#tab-{{loop.index}}" role="tab" aria-controls="{{tab.title}}" aria-selected="true">{{tab.title}}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+
+          {# Tabs content #}
+          <div class="tab-content reveal-soft" id="myTabContent">
+            {% for tab in flexblock.tabGroup %}
+              <div class="tab-pane {% if loop.index == 1 %}active{% endif %}" id="tab-{{loop.index}}" role="tabpanel" aria-labelledby="{{tab.title}}-tab">
+                  <div class="row pt-3">
+                    <div class="col-md-6 wysiwyg-txt">
+                      {{tab.col1}}
+                    </div>
+                    <div class="col-md-6 wysiwyg-txt">
+                      {{tab.col2}}
+                    </div>
+                  </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

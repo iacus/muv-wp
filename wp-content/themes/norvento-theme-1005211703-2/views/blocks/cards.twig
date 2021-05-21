@@ -1,0 +1,33 @@
+<section class="flModule">
+  <div class="container pb-5">
+    {% if flexblock.title %}
+      <h3 class="display-05 reveal-soft bold pb-3">{{flexblock.title}}</h3>
+    {% endif %}
+    <div class="row no-gutters">
+      {% for card in flexblock.cardsGroup %}
+        <!-- Card -->
+        <div class="card reveal-soft col-md-4 {{card.bgColor.value}}">
+          {% if card.image %}
+            <a href="{{card.link.url}}" target="{{card.link.target}}">
+              <div class="card-img-wrapper">
+                <img class="card-img" loading="lazy" src="{{ Image(card.image).src('small') }}" srcset="{{ Image(card.image).srcset }}" sizes="{{ Image(card.image).img_sizes }}" alt="{{Image(card.image).alt}}" />
+              </div>
+            </a>
+          {% endif %}
+
+          <div class="card-body">
+            <h3 class="card-title text-01 bold"><a href="{{card.link.url}}">{{card.title}}</a></h3>
+            {% if card.text %}
+              <div class="card-text text-04">{{card.text}}</div>
+            {% endif %}
+            {% if card.link %}
+              <div class="bottom">
+                <a class="card-link text-link stretched-link" href="{{card.link.url}}" target="{{card.link.target}}">{{card.link.title}}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

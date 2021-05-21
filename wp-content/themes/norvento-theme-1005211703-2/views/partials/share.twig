@@ -1,0 +1,13 @@
+
+<div class="share-buttons text-04">
+  <span class="share-title">{{ __('Compartir:', 'theme') }}</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ post.link }}" target="_blank">Facebook</a>
+  <a href="mailto:?subject={{post.title}}&body={{post.link}}" title="Share by Email" target="_blank">Mail</a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ post.link }}" target="_blank">Linkedin</a>
+  <a href="http://twitter.com/share" class="twitter-share-button"
+      data-url="{{ post.link }}"
+      data-via="{{site.title}}"
+      data-text="{{ post.title }}"
+      data-related="{{site.title}}"
+      data-count="vertical">Twitter</a>
+</div>
